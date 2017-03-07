@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.Shell;
 using Roslyn.VisualStudio.Setup;
 
 [assembly: ProvideRoslynBindingRedirection("Microsoft.CodeAnalysis.EditorFeatures.Next.dll")]
+[assembly: ProvideRoslynBindingRedirection("Microsoft.CodeAnalysis.Xaml.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.Xaml.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.Next.dll")]
 [assembly: ProvideRoslynBindingRedirection("Microsoft.VisualStudio.LanguageServices.Razor.RemoteClient.dll")]

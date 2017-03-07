@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="XML_InvalidToken" xml:space="preserve">
+    <value>The character(s) '{0}' cannot be used at this location.</value>
+  </data>
+  <data name="XML_IncorrectComment" xml:space="preserve">
+    <value>Incorrect syntax was used in a comment.</value>
+  </data>
+  <data name="XML_InvalidCharEntity" xml:space="preserve">
+    <value>An invalid character was found inside an entity reference.</value>
+  </data>
+  <data name="XML_ExpectedEndOfTag" xml:space="preserve">
+    <value>Expected '&gt;' or '/&gt;' to close tag '{0}'.</value>
+  </data>
+  <data name="XML_ExpectedIdentifier" xml:space="preserve">
+    <value>An identifier was expected.</value>
+  </data>
+  <data name="XML_InvalidUnicodeChar" xml:space="preserve">
+    <value>Invalid unicode character.</value>
+  </data>
+  <data name="XML_InvalidWhitespace" xml:space="preserve">
+    <value>Whitespace is not allowed at this location.</value>
+  </data>
+  <data name="XML_LessThanInAttributeValue" xml:space="preserve">
+    <value>The character '&lt;' cannot be used in an attribute value.</value>
+  </data>
+  <data name="XML_MissingEqualsAttribute" xml:space="preserve">
+    <value>Missing equals sign between attribute and attribute value.</value>
+  </data>
+  <data name="XML_RefUndefinedEntity_1" xml:space="preserve">
+    <value>Reference to undefined entity '{0}'.</value>
+  </data>
+  <data name="XML_StringLiteralNoStartQuote" xml:space="preserve">
+    <value>A string literal was expected, but no opening quotation mark was found.</value>
+  </data>
+  <data name="XML_StringLiteralNoEndQuote" xml:space="preserve">
+    <value>Missing closing quotation mark for string literal.</value>
+  </data>
+  <data name="XML_StringLiteralNonAsciiQuote" xml:space="preserve">
+    <value>Non-ASCII quotations marks may not be used around string literals.</value>
+  </data>
+  <data name="XML_EndTagNotExpected" xml:space="preserve">
+    <value>End tag was not expected at this location.</value>
+  </data>
+  <data name="XML_ElementTypeMatch" xml:space="preserve">
+    <value>End tag '{0}' does not match the start tag '{1}'.</value>
+  </data>
+  <data name="XML_EndTagExpected" xml:space="preserve">
+    <value>Expected an end tag for element '{0}'.</value>
+  </data>
+  <data name="XML_WhitespaceMissing" xml:space="preserve">
+    <value>Required white space was missing.</value>
+  </data>
+  <data name="XML_ExpectedEndOfXml" xml:space="preserve">
+    <value>Unexpected character at this location.</value>
+  </data>
+  <data name="XML_CDataEndTagNotAllowed" xml:space="preserve">
+    <value>The literal string ']]&gt;' is not allowed in element content.</value>
+  </data>
+  <data name="XML_DuplicateAttribute" xml:space="preserve">
+    <value>Duplicate '{0}' attribute</value>
+  </data>
+  <data name="CompilationC" xml:space="preserve">
+    <value>Compilation (C#): </value>
+  </data>
+  <data name="SyntaxNodeIsNotWithinSynt" xml:space="preserve">
+    <value>Syntax node is not within syntax tree</value>
+  </data>
+  <data name="LocationMustBeProvided" xml:space="preserve">
+    <value>Location must be provided in order to provide minimal type qualification.</value>
+  </data>
+  <data name="SyntaxTreeSemanticModelMust" xml:space="preserve">
+    <value>SyntaxTreeSemanticModel must be provided in order to provide minimal type qualification.</value>
+  </data>
+  <data name="CantReferenceCompilationOf" xml:space="preserve">
+    <value>Can't reference compilation of type '{0}' from {1} compilation.</value>
+  </data>
+  <data name="SyntaxTreeAlreadyPresent" xml:space="preserve">
+    <value>Syntax tree already present</value>
+  </data>
+  <data name="SubmissionCanOnlyInclude" xml:space="preserve">
+    <value>Submission can only include script code.</value>
+  </data>
+  <data name="SubmissionCanHaveAtMostOne" xml:space="preserve">
+    <value>Submission can have at most one syntax tree.</value>
+  </data>
+  <data name="SyntaxTreeNotFoundTo" xml:space="preserve">
+    <value>SyntaxTree '{0}' not found to remove</value>
+  </data>
+  <data name="TreeMustHaveARootNodeWith" xml:space="preserve">
+    <value>tree must have a root node with SyntaxKind.CompilationUnit</value>
+  </data>
+  <data name="TypeArgumentCannotBeNull" xml:space="preserve">
+    <value>Type argument cannot be null</value>
+  </data>
+  <data name="WrongNumberOfTypeArguments" xml:space="preserve">
+    <value>Wrong number of type arguments</value>
+  </data>
+  <data name="NameConflictForName" xml:space="preserve">
+    <value>Name conflict for name {0}</value>
+  </data>
+  <data name="LookupOptionsHasInvalidCombo" xml:space="preserve">
+    <value>LookupOptions has an invalid combination of options</value>
+  </data>
+  <data name="ItemsMustBeNonEmpty" xml:space="preserve">
+    <value>items: must be non-empty</value>
+  </data>
+  <data name="UseVerbatimIdentifier" xml:space="preserve">
+    <value>Use Microsoft.CodeAnalysis.CSharp.SyntaxFactory.Identifier or Microsoft.CodeAnalysis.CSharp.SyntaxFactory.VerbatimIdentifier to create identifier tokens.</value>
+  </data>
+  <data name="UseLiteralForTokens" xml:space="preserve">
+    <value>Use Microsoft.CodeAnalysis.CSharp.SyntaxFactory.Literal to create character literal tokens.</value>
+  </data>
+  <data name="UseLiteralForNumeric" xml:space="preserve">
+    <value>Use Microsoft.CodeAnalysis.CSharp.SyntaxFactory.Literal to create numeric literal tokens.</value>
+  </data>
+  <data name="ThisMethodCanOnlyBeUsedToCreateTokens" xml:space="preserve">
+    <value>This method can only be used to create tokens - {0} is not a token kind.</value>
+  </data>
+  <data name="GenericParameterDefinition" xml:space="preserve">
+    <value>Generic parameter is definition when expected to be reference {0}</value>
+  </data>
+  <data name="InvalidGetDeclarationNameMultipleDeclarators" xml:space="preserve">
+    <value>Called GetDeclarationName for a declaration node that can possibly contain multiple variable declarators.</value>
+  </data>
+  <data name="TreeNotPartOfCompilation" xml:space="preserve">
+    <value>tree not part of compilation</value>
+  </data>
+  <data name="PositionIsNotWithinSyntax" xml:space="preserve">
+    <value>Position is not within syntax tree with full span {0}</value>
+  </data>
+  <data name="NotACSharpSymbol" xml:space="preserve">
+    <value>Not a C# symbol.</value>
+  </data>
+  <data name="ElementsCannotBeNull" xml:space="preserve">
+    <value>Elements cannot be null.</value>
+  </data>
+  <data name="WrongSemanticModelType" xml:space="preserve">
+    <value>Expected a {0} SemanticModel.</value>
+  </data>
+  <data name="PositionNotWithinTree" xml:space="preserve">
+    <value>Position must be within span of the syntax tree.</value>
+  </data>
+  <data name="SpeculatedSyntaxNodeCannotBelongToCurrentCompilation" xml:space="preserve">
+    <value>Syntax node to be speculated cannot belong to a syntax tree from the current compilation.</value>
+  </data>
+  <data name="ChainingSpeculativeModelIsNotSupported" xml:space="preserve">
+    <value>Chaining speculative semantic model is not supported. You should create a speculative model from the non-speculative ParentModel.</value>
+  </data>
+  <data name="NoNoneSearchCriteria" xml:space="preserve">
+    <value>SearchCriteria is expected.</value>
+  </data>
+  <data name="CouldNotFindFile" xml:space="preserve">
+    <value>Could not find file.</value>
+    <comment>File path referenced in source (#load) could not be resolved.</comment>
+  </data>
+  <data name="SyntaxTreeFromLoadNoRemoveReplace" xml:space="preserve">
+    <value>SyntaxTree '{0}' resulted from a #load directive and cannot be removed or replaced directly.</value>
+  </data>
+  <data name="SyntaxTreeIsNotASubmission" xml:space="preserve">
+    <value>Syntax tree should be created from a submission.</value>
+  </data>
+  <data name="TypeMustBeVar" xml:space="preserve">
+    <value>The type must be 'var'.</value>
+  </data>
+  <data name="Error_AmbiguousBindMethod" xml:space="preserve">
+    <value>Overloaded method '{0}' cannot be used in a compiled binding.</value>
+  </data>
+  <data name="Error_AmbiguousTypeReference" xml:space="preserve">
+    <value>Ambiguous type reference. A type named '{0}' occurs in at least two namespaces, '{1}' and '{2}'. Consider adjusting the assembly XmlnsDefinition attributes.</value>
+    <comment>Occurs when constructing an assembly -used by the Parser. Eg: a customcontrol, usercontrol. 
+-Avalon does not complain, we do
+-Should be a warning - ChuckJ to change</comment>
+  </data>
+  <data name="Error_AssemblyNotPartOfProject" xml:space="preserve">
+    <value>Assembly '{0}' was not found. Verify that you are not missing an assembly reference. Also, verify that your project and all referenced assemblies have been built.</value>
+    <comment>-Using xmlns:x=clrnamespace=&lt;ns&gt;;assembly=&lt;assembly&gt;
+
+-fix:check spelling of assembly or add assembly</comment>
+  </data>
+  <data name="Error_AtLeastOneChoiceMustBePresent" xml:space="preserve">
+    <value>At least one Choice element must be included in an AlternateContent element.</value>
+    <comment>-AlternateContent is part of Markup Compatibility NS.
+
+-requires one alternate to be chosen</comment>
+  </data>
+  <data name="Error_AttributeAlreadyDefined" xml:space="preserve">
+    <value>The attribute '{0}' is set more than one time.</value>
+    <comment>-User has set an attribute for an element multiple times
+
+-fix:remove one</comment>
+  </data>
+  <data name="Error_AttributesNotSupportedWithConverters" xml:space="preserve">
+    <value>TypeConverter syntax error encountered while processing initialization string '{0}'. Element attributes are not allowed on objects created via TypeConverter.</value>
+    <comment>"Color= 'Blue'" is not valid when using a TypeConverter. Ie &lt;SolidColorBrush Color='Blue'&gt;Red&lt;/SolidColorBrush&gt;</comment>
+  </data>
+  <data name="Error_AttributeValueNotSupported" xml:space="preserve">
+    <value>Unable to obtain a value for the attribute '{0}'.</value>
+  </data>
+  <data name="Error_BadDecimalDigit" xml:space="preserve">
+    <value>Invalid character in decimal character entity. Decimal character entities must only contain digits between '0' and '9'.</value>
+    <comment>-using decimal entity eg:&amp;32;, then this error will show if invalid characters included
+
+	Error_BadHexDigit	Illegal character in hexadecimal character entity; hexadecimal character entities must contain digits between '0' and '9', or letters between 'a' and 'f' or 'A' and 'F'.	-using hex entity eg:&amp;32;, then this error will show if invalid characters included
+
+-fix: remove invalid characters</comment>
+  </data>
+  <data name="Error_BadHexDigit" xml:space="preserve">
+    <value>Invalid character in hexadecimal character entity. Hexadecimal character entities must contain digits between '0' and '9', or letters between 'a' and 'f' or 'A' and 'F'.</value>
+    <comment>-using hex entity eg:&amp;32;, then this error will show if invalid characters included
+
+-fix: remove invalid characters</comment>
+  </data>
+  <data name="Error_BindBackError" xml:space="preserve">
+    <value>Requires a method with a single parameter of type '{0}'.</value>
+  </data>
+  <data name="Error_BindingClassNotFirst" xml:space="preserve">
+    <value>To generate an event handler the class '{0}', specified by the x:Class or x:Subclass attribute, must be the first class in the file. Move the class code so that it is the first class in the file and try again.</value>
+  </data>
+  <data name="Error_BothIncludeExcludeNonNull" xml:space="preserve">
+    <value>Only one of includedPatterns or excludedPatterns can be non-null</value>
+  </data>
+  <data name="Error_CannotLoadUri" xml:space="preserve">
+    <value>The resource for URI{0} could not be loaded.</value>
+  </data>
+  <data name="Error_CannotMixMessageTypes" xml:space="preserve">
+    <value>Cannot mix private and public mergable messages.</value>
+  </data>
+  <data name="Error_CastCannotStarWithAttachedProperty" xml:space="preserve">
+    <value>Starting a cast with an attached property is not supported.</value>
+  </data>
+  <data name="Error_ClosingTagMismatch" xml:space="preserve">
+    <value>Closing tag for element '&lt;{0}&gt;' was not found.</value>
+    <comment>-have opening tag, but missing end tag
+
+-fix:add end tag</comment>
+  </data>
+  <data name="Error_CollectionElementTypeMismatch" xml:space="preserve">
+    <value>A value of type '{1}' cannot be added to a collection or dictionary of type '{0}'.</value>
+    <comment>-Adding invalid type to dictionary/collection</comment>
+  </data>
+  <data name="Error_CommentedEndedWithDoubleHyphenBangGreaterThan" xml:space="preserve">
+    <value>The comment was terminated incorrectly. Comments are terminated with the characters '--&gt;', not '--!&gt;'.</value>
+    <comment>-common error, so special parsing logic to detect it
+-fix: use --&gt; as closing tag</comment>
+  </data>
+  <data name="Error_CommentWithDoubleHyphen" xml:space="preserve">
+    <value>Comments cannot contain two adjacent hyphens '--'. Two adjacent hyphens '--' must be followed by a close angle bracket character '&gt;' to terminate the comment.</value>
+    <comment>-XML artefact that XMLcomments cannot have --</comment>
+  </data>
+  <data name="Error_CommitFailed" xml:space="preserve">
+    <value>An error occurred while committing changes to the designer.  You should immediately close the designer and re-open it.  Before saving changes, examine the markup in the XAML tab to ensure it is not corrupt.  The error was '{0}'.</value>
+  </data>
+  <data name="Error_CommitNotCalled" xml:space="preserve">
+    <value>The Commit method on SourceModifier has not been called.</value>
+    <comment>-internal message - user will not see this
+
+-caused by misuse of Doc model</comment>
+  </data>
+  <data name="Error_CommittedModifier" xml:space="preserve">
+    <value>The source modifier has already been committed and cannot be modified further.</value>
+    <comment>-internal message - user will not see this
+
+-caused by misuse of Doc model</comment>
+  </data>
+  <data name="Error_ContentNotSupported" xml:space="preserve">
+    <value>The type '{0}' does not support direct content.</value>
+    <comment>-cannot use element syntax to set children. eg:GradientStop
+
+-fix: do not use element syntax for types without a ContentProperty attribute set</comment>
+  </data>
+  <data name="Error_ContextDetaching" xml:space="preserve">
+    <value>The designer context for {0} is currently detaching from the project and cannot be retrieved.</value>
+  </data>
+  <data name="Error_DescriptorNotFound" xml:space="preserve">
+    <value>PropertyDescriptor for '{0}' in type '{1}' was not found.</value>
+    <comment>-unlikely that the user will see this; there is a type, but no backing property descriptor found (eg shadow properties)</comment>
+  </data>
+  <data name="Error_DesignerAlreadyLoaded" xml:space="preserve">
+    <value>The designer has already been loaded.</value>
+  </data>
+  <data name="Error_DesignerNotLoaded" xml:space="preserve">
+    <value>The designer has not been loaded yet.</value>
+  </data>
+  <data name="Error_DocumentManagerNotLoaded" xml:space="preserve">
+    <value>A document has not been loaded into the document manager.</value>
+    <comment>-internal - has not called load before using the DocManager. Users of the DocManager may see this</comment>
+  </data>
+  <data name="Error_DocumentNotTextStream" xml:space="preserve">
+    <value>The document '{0}' does not appear to be a text document.  Only text documents can be edited.</value>
+  </data>
+  <data name="Error_DoneNotCalled" xml:space="preserve">
+    <value>The Done method must be called on a source changer before passing it to this API.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_EmptyDocument" xml:space="preserve">
+    <value>XML document must contain a root level element.</value>
+    <comment>Error when we have a blank file</comment>
+  </data>
+  <data name="Error_EmptyXmlnsDeclaration" xml:space="preserve">
+    <value>A namespace prefix declaration cannot be empty.</value>
+    <comment>A namespace declaration of beginning with "xmlns:" must contain a non-empty string identifying the namespace. The namespace string is recommended to be a URI.</comment>
+  </data>
+  <data name="Error_EndingBeforeCursor" xml:space="preserve">
+    <value>Text cannot be copied in the document because the ending location of '{0}' is before the current cursor position of '{1}'.</value>
+  </data>
+  <data name="Error_EntityOverflow" xml:space="preserve">
+    <value>Numeric entity is out of range. The value specified is not a valid Unicode value. Valid ranges: #x20-#xD7FF, #xE000-#xFFFD, #x10000-#x10FFFF and #x9, #xA, #xD.</value>
+    <comment>-when specifying hex or decimal entity, and used a value outside valid ranges</comment>
+  </data>
+  <data name="Error_ExpectedCollection" xml:space="preserve">
+    <value>Type '{0}' is not a collection.</value>
+  </data>
+  <data name="Error_ExpectedDifferentToken" xml:space="preserve">
+    <value>Expected '{0}'.</value>
+    <comment>-missing a reserved character that the parser expected </comment>
+  </data>
+  <data name="Error_ExpectedIdentifier" xml:space="preserve">
+    <value>Identifier expected. Expected a valid XAML name.</value>
+    <comment>-special case where invalid identifier violates at least XAML spec</comment>
+  </data>
+  <data name="Error_ExpectedInstanceMember" xml:space="preserve">
+    <value>Expected '{0}' on type '{1}' to be an instance member.</value>
+  </data>
+  <data name="Error_ExpectedMethod" xml:space="preserve">
+    <value>'{0}' is not a method.</value>
+  </data>
+  <data name="Error_ExpectedPropertyValue" xml:space="preserve">
+    <value>Property '{0}' does not have a value.</value>
+    <comment>Properties (non-collection, non-dictionary) in complex form must have a value</comment>
+  </data>
+  <data name="Error_ExpectedStatic" xml:space="preserve">
+    <value>Expected '{0}' on type '{1}' to be a static.</value>
+  </data>
+  <data name="Error_ExpectedString" xml:space="preserve">
+    <value>Expected an attribute value. Attribute values are delimited by a single quotation mark (') or a double quotation mark (").</value>
+    <comment>-special case where attribute incorrectly set 
+
+</comment>
+  </data>
+  <data name="Error_ExpectedWhitespace" xml:space="preserve">
+    <value>'{0}' is an unexpected token causing the XML to be invalid. White space is expected.</value>
+    <comment>Missing space or new lines between attributes</comment>
+  </data>
+  <data name="Error_FallbackMustBeLast" xml:space="preserve">
+    <value>A Choice element cannot follow a Fallback element in an AlternateContent element. Move the Fallback element to be last.</value>
+  </data>
+  <data name="Error_FunctionBindWithConverter" xml:space="preserve">
+    <value>Using a converter with function binding is not supported.</value>
+  </data>
+  <data name="Error_FunctionParameterCountMismatched" xml:space="preserve">
+    <value>Cannot find a function overload that takes {0} parameters.</value>
+  </data>
+  <data name="Error_GenericEditorError" xml:space="preserve">
+    <value>The editor view cannot be displayed.</value>
+  </data>
+  <data name="Error_GotoDefinitionFailed" xml:space="preserve">
+    <value>Cannot navigate to definition.</value>
+  </data>
+  <data name="Error_HostTypeNameNotFound" xml:space="preserve">
+    <value>Description for type '{0}' not found in the XAML language service host.</value>
+  </data>
+  <data name="Error_IllegalWhitespaceInIdentifier" xml:space="preserve">
+    <value>Invalid white space. White space cannot follow the open angle bracket character '&lt;' in an element tag.</value>
+    <comment>-emitted when white space between angle bracket and element tag name</comment>
+  </data>
+  <data name="Error_IncompatibleOpenEditor" xml:space="preserve">
+    <value>The file '{0}' cannot be opened because it is already opened in another editor.  Close other document windows that are using this file and try again.</value>
+  </data>
+  <data name="Error_IncorrectNumberOfCtorArguments" xml:space="preserve">
+    <value>No constructor for type '{0}' has {1} parameters.</value>
+    <comment>-emitted when setting markup extensions with more parameters than allowed by the constructor</comment>
+  </data>
+  <data name="Error_InvalidAsyncResult" xml:space="preserve">
+    <value>Invalid AsyncResult.</value>
+  </data>
+  <data name="Error_InvalidChanger" xml:space="preserve">
+    <value>The source changer passed to this API must be one that was created by '{0}'.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_InvalidChildType" xml:space="preserve">
+    <value>A value of type '{1}' cannot be added a child of type '{0}'.</value>
+  </data>
+  <data name="Error_InvalidClrNamespaceSyntax" xml:space="preserve">
+    <value>Invalid mapping URI syntax. Must take the form 'clr-namespace:&lt;clr namespace&gt;[;assembly=&lt;assembly name&gt;]'.</value>
+    <comment>-used xmlns:&lt;name&gt;=clrnamespace:&lt;xmlns&gt;;assembly=&lt;name&gt;
+
+-fix: use proper syntax</comment>
+  </data>
+  <data name="Error_InvalidEventBinding" xml:space="preserve">
+    <value>Event '{0}' can only be bound to properties of delegate type '{1}'.</value>
+  </data>
+  <data name="Error_InvalidGuidesMessage" xml:space="preserve">
+    <value>The .guides file can't be opened and may be corrupted.  The existing file will be replaced with a new .guides file.</value>
+    <comment>Displayed when a .guides file contains errors</comment>
+  </data>
+  <data name="Error_InvalidIgnorableAttribute" xml:space="preserve">
+    <value>Invalid Ignorable attribute value. Ignorable must contain a space delimited list of prefixes defined by xmlns declarations in scope.</value>
+    <comment>-Markup Compatibility namespace - mis-used syntax from this NS</comment>
+  </data>
+  <data name="Error_InvalidIndex" xml:space="preserve">
+    <value>Invalid index value '{0}'.</value>
+  </data>
+  <data name="Error_InvalidMoveLocation" xml:space="preserve">
+    <value>The location must be greater than the current location and less than the end of the source.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_InvalidMustUnderstandAttribute" xml:space="preserve">
+    <value>MustUnderstand condition failed on namespace '{0}'. Verify that you are not missing an assembly reference and that all assemblies have been built.</value>
+    <comment>-Markup Compatibility - this namespace is not understood so the condition fails.  May be a bad prefix, assembly not built, typo or other syntax error in it's definition.</comment>
+  </data>
+  <data name="Error_InvalidPackURI" xml:space="preserve">
+    <value>Pack URI '{0}' is not valid in this project.</value>
+  </data>
+  <data name="Error_InvalidPackURIAuthority" xml:space="preserve">
+    <value>Current project does not support '{0}' as the authority component of the pack URI.</value>
+  </data>
+  <data name="Error_InvalidProcessContentAttribute" xml:space="preserve">
+    <value>Invalid ProcessContent attribute value. ProcessContent must contain a space delimited list of prefix qualified names or a '[prefix]:*' for all elements in the namespace. All prefixes referenced must also be declared ignorable in the same element that contains the ProcessContent attribute.</value>
+    <comment>-if using the MarkupCompatibility NS, and you specify that a type is ignorable, then you can use ProcessContent to have the internal content of an ignorable element be processed by the parser. Refer to MarkupCompat NS</comment>
+  </data>
+  <data name="Error_InvalidPropertyPathSyntax" xml:space="preserve">
+    <value>Invalid property path syntax.</value>
+  </data>
+  <data name="Error_InvalidReadLocation" xml:space="preserve">
+    <value>Value must be greater than the previous location + length.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_InvalidRequiresSyntax" xml:space="preserve">
+    <value>Invalid Requires syntax. Must be a space delimited list of prefixes.</value>
+    <comment>-Markup Compatibility NS error. Badly set Requires attribute of choice element that is content of AlternateContent block</comment>
+  </data>
+  <data name="Error_InvalidResourceType" xml:space="preserve">
+    <value>The file '{0}' is not part of the project or its 'Build Action' property is not set to 'Resource'.</value>
+  </data>
+  <data name="Error_InvalidRuntimeName" xml:space="preserve">
+    <value>Because '{0}' is implemented in the same assembly, you must set the x:Name attribute rather than the {1} attribute.</value>
+    <comment>-Catch this before compiler throws error.</comment>
+  </data>
+  <data name="Error_InvalidStringLength" xml:space="preserve">
+    <value>String length cannot be negative.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_InvalidTypeArgumentSyntax" xml:space="preserve">
+    <value>Invalid XAML TypeArgument syntax.</value>
+    <comment>-if in TypeArgument syntax, used for generic class, is incorrect</comment>
+  </data>
+  <data name="Error_InvalidTypeFormat" xml:space="preserve">
+    <value>Invalid format for a type.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_InvalidUri" xml:space="preserve">
+    <value>The URI must be an absolute URI and be of the correct format.</value>
+  </data>
+  <data name="Error_InvalidUsingSyntax" xml:space="preserve">
+    <value>Invalid mapping URI syntax. Must take the form 'using:&lt;namespace&gt;'.</value>
+  </data>
+  <data name="Error_InvalidXamlName" xml:space="preserve">
+    <value>Name '{0}' is not a valid XAML name.</value>
+    <comment>-F1 doc for the error should point to what unicode characters are valid for XAML name</comment>
+  </data>
+  <data name="Error_InvalidXamlType" xml:space="preserve">
+    <value>The file '{0}' is not part of the project or its 'Build Action' property is not set to 'Resource'.</value>
+  </data>
+  <data name="Error_InvalidXmlAttribute" xml:space="preserve">
+    <value>XML attribute '{0}' is not defined. Expected xml:space or xml:lang.</value>
+    <comment>-from XML NS there are only two valid attributes lang,space</comment>
+  </data>
+  <data name="Error_InvalidXmlnsDefinitionAttribute" xml:space="preserve">
+    <value>Invalid XmlnsDeclaration occurs in assembly '{0}'. XmlnsDeclaration references a namespace '{1}' that is not in the assembly.</value>
+    <comment>-should be warning (ChuckJ)</comment>
+  </data>
+  <data name="Error_InvalidXmlSpace" xml:space="preserve">
+    <value>Invalid xml:space value '{0}'. The xml:space value must be either 'default' or 'preserve'.</value>
+    <comment>-space attribute can only have 1 of two values</comment>
+  </data>
+  <data name="Error_InvocationNotSupported" xml:space="preserve">
+    <value>Member invocation is not supported for '{0}.{1}'.</value>
+  </data>
+  <data name="Error_KeyOnlyAllowedInDictionary" xml:space="preserve">
+    <value>Key attribute can be used only on a tag contained in an IDictionary type property.</value>
+    <comment>- Displayed when x:Key is used outside a dictionary</comment>
+  </data>
+  <data name="Error_KeyRequired" xml:space="preserve">
+    <value>A key is required for a dictionary entry.</value>
+    <comment>-part of the DocMode API. When adding an item to dictionary, and pseudo-property specifying key</comment>
+  </data>
+  <data name="Error_KeyRequiredInDictionary" xml:space="preserve">
+    <value>All objects added to an IDictionary must have a Key attribute or some other type of key associated with them.</value>
+    <comment>Need a key when inside a Resource Dictionary</comment>
+  </data>
+  <data name="Error_LoadAndDeferLoad" xml:space="preserve">
+    <value>An element cannot have both x:Load and x:DeferLoadStrategy.</value>
+  </data>
+  <data name="Error_MaxDepthReached" xml:space="preserve">
+    <value>The XAML document has exceeded the maximum supported depth.</value>
+  </data>
+  <data name="Error_MemberNotAccessible" xml:space="preserve">
+    <value>'{0}' is not accessible.</value>
+  </data>
+  <data name="Error_MemberNotFound" xml:space="preserve">
+    <value>Member '{0}' not found in type '{0}'.</value>
+  </data>
+  <data name="Error_MethodNameInvalid" xml:space="preserve">
+    <value>Method name '{0}' is not a valid language identifier.</value>
+  </data>
+  <data name="Error_MismatchedParameterType" xml:space="preserve">
+    <value>Expected argument of type '{0}', but found '{1}'.</value>
+  </data>
+  <data name="Error_MissingBindingClass" xml:space="preserve">
+    <value>An x:Class attribute is required to generate an event handler. Modify the root element of the XAML document to include an x:Class attribute to specify which class handles events for this XAML document and try again.</value>
+  </data>
+  <data name="Error_MissingSemicolonInEntity" xml:space="preserve">
+    <value>Entity references or sequences beginning with an ampersand '&amp;' must be terminated with a semicolon ';'.</value>
+    <comment>-badly formed entity</comment>
+  </data>
+  <data name="Error_MissingService" xml:space="preserve">
+    <value>Service '{0}' is required, but it could not be resolved.</value>
+    <comment>- internal error</comment>
+  </data>
+  <data name="Error_ModifyDoneChanger" xml:space="preserve">
+    <value>A source changer cannot be modified after its Done method has been called.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_MoveWithoutReader" xml:space="preserve">
+    <value>The Move method cannot be called without specifying a reader.</value>
+    <comment>-internal</comment>
+  </data>
+  <data name="Error_MultipleElementsInRootAlternateContent" xml:space="preserve">
+    <value>An AlternateContent element at the root can have only one element in the chosen Choice or Fallback element.</value>
+  </data>
+  <data name="Error_MustSelectResourceDestination" xml:space="preserve">
+    <value>You must select a target ResourceDictionary.</value>
+  </data>
+  <data name="Error_NamespaceNotFoundInAssembly" xml:space="preserve">
+    <value>Undefined CLR namespace. The 'clr-namespace' URI refers to a namespace '{0}' that could not be found.</value>
+    <comment>
+			- UA_REVIEW;mmalone.  Also, don't localize 'clr-namespace'.
+			- should be warning (ChuckJ)
+			- Used a namespace and assembly, but NS not found in assembly</comment>
+  </data>
+  <data name="Error_NestedBindFunction" xml:space="preserve">
+    <value>Functions cannot have other functions as parameters.</value>
+  </data>
+  <data name="Error_NoDefaultAssembly" xml:space="preserve">
+    <value>Assembly must be specified for XAML files that are not part of a project. Reopen this XAML file after adding it to a project, close this file and reopen it using the project it is associated with, or modify the clr-namespace to include the name of the assembly.</value>
+  </data>
+  <data name="Error_NonLeafBindFunction" xml:space="preserve">
+    <value>Functions are only supported at the end of the bind path.</value>
+  </data>
+  <data name="Error_NoSuchNamedEntity" xml:space="preserve">
+    <value>The named entity '&amp;{0};' is not defined in XAML.</value>
+    <comment>-bad entity name</comment>
+  </data>
+  <data name="Error_NoTextModel" xml:space="preserve">
+    <value>The designer requires a markup text model in order to display.  The project you are currently using does not offer a text model.</value>
+  </data>
+  <data name="Error_ObjectIsNotConstructable" xml:space="preserve">
+    <value>Type '{0}' is not usable as an object element because it is not public or does not define a public parameterless constructor or a type converter.</value>
+    <comment>-used a type that does not have a public constructor/type convertor, or is not public</comment>
+  </data>
+  <data name="Error_OnlyOneFallbackAllowed" xml:space="preserve">
+    <value>An AlternateContent element can contain only one Fallback element. </value>
+  </data>
+  <data name="Error_OnlyReadAccessSupported" xml:space="preserve">
+    <value>Read-write access to a binary model is not currently supported.</value>
+  </data>
+  <data name="Error_OpenDocumentFailed" xml:space="preserve">
+    <value>Failed to open document '{0}'.</value>
+  </data>
+  <data name="Error_ProjectMustBeApplication" xml:space="preserve">
+    <value>The designer does not support an application URI in an assembly other than the application.  Change '{0}' to be relative to the XAML file or fully qualify it with '{1}'.</value>
+  </data>
+  <data name="Error_PropertiesInMiddleOfContent" xml:space="preserve">
+    <value>Property elements cannot be in the middle of an element's content. They must be before or after the content.</value>
+    <comment>-You have content elements before and after your property elements. Property Elements can only come at the start and/or end of the elements xml children.</comment>
+  </data>
+  <data name="Error_PropertyAlreadySet" xml:space="preserve">
+    <value>The property '{0}' is set more than once.</value>
+    <comment>-if user has set an element's attribute more than once using valid XML, then will get this error</comment>
+  </data>
+  <data name="Error_PropertyElementSyntaxNotLegalHere" xml:space="preserve">
+    <value>A property element cannot be the direct content of another property element.</value>
+    <comment>-fix:create an object of type of the property, then set the nested property element</comment>
+  </data>
+  <data name="Error_PropertyIsNotAttachable" xml:space="preserve">
+    <value>The property '{0}' is not declared as an attachable property.</value>
+    <comment>-using a non-attached property as an attached property either in property element syntax or attribute syntax</comment>
+  </data>
+  <data name="Error_PropertyNotAttachableTo" xml:space="preserve">
+    <value>Property '{0}' is not attachable to elements of type '{1}'.</value>
+  </data>
+  <data name="Error_PropertyTypeMismatch" xml:space="preserve">
+    <value>Property '{0}' does not support values of type '{1}'.</value>
+    <comment>-set a property in XAML with a value with a mismatching type</comment>
+  </data>
+  <data name="Error_RecompileDesignAssembly" xml:space="preserve">
+    <value>The design time assembly '{0}' you have compiled against is not the same version used by $(VSGeneralBrandName).  Recompile your design time assemblies using references from this version of $(VSGeneralBrandName).</value>
+    <comment>VSGeneralBrandName is not literal, and is substituted at build time.</comment>
+  </data>
+  <data name="Error_RequiredVSServiceNotFound" xml:space="preserve">
+    <value>Required $(VSGeneralBrandName) Service '{0}' not found.</value>
+    <comment>VSGeneralBrandName is not literal, and is substituted at build time.</comment>
+  </data>
+  <data name="Error_RequiresRequired" xml:space="preserve">
+    <value>Choice element must contain a Requires attribute.</value>
+    <comment>-Using markup compat NS incorrectly</comment>
+  </data>
+  <data name="Error_ResourceNotFound" xml:space="preserve">
+    <value>The resource '{0}' could not be found. It should be located at '{1}' but the file is not present.</value>
+  </data>
+  <data name="Error_ResponseClosed" xml:space="preserve">
+    <value>The web response has been closed.</value>
+  </data>
+  <data name="Error_ReturnTypeInvalid" xml:space="preserve">
+    <value>Function return type '{0}' must match binding target type '{1}'.</value>
+  </data>
+  <data name="Error_StringNotAllowedInDictionary" xml:space="preserve">
+    <value>Text not allowed as content in a dictionary or an array property.</value>
+    <comment>Text the content of a property of a type that supports IDictionary or is an array. Use &lt;sys:String&gt;...&lt;/sys:String&gt; syntax instead.</comment>
+  </data>
+  <data name="Error_TypeIsNotAMarkupExtensions" xml:space="preserve">
+    <value>Type '{0}' is used like a markup extension but does not derive from MarkupExtension.</value>
+    <comment>-used curly braces around a type that is not a MarkupExtension</comment>
+  </data>
+  <data name="Error_TypeNotMBRO" xml:space="preserve">
+    <value>The specified argument is not a MarshalByRefObject or derived type.</value>
+  </data>
+  <data name="Error_UnableToLoadAssemlby" xml:space="preserve">
+    <value>Unable to load the metadata for assembly '{0}'. This assembly may have been downloaded from the web.  See https://go.microsoft.com/fwlink/?LinkId=179545.  The following error was encountered during load: {1}</value>
+    <comment>-may be the assembly requested is not in fact an assembly or assembly is out of date &amp;does not match the original version (DLL hell)</comment>
+  </data>
+  <data name="Error_UndefinedAttachableProperty" xml:space="preserve">
+    <value>The attachable property '{0}' was not found in type '{1}'.</value>
+  </data>
+  <data name="Error_UndefinedProperty" xml:space="preserve">
+    <value>The property '{0}' was not found in type '{1}'.</value>
+    <comment>-specifying a property that does not exist on the type (in XAML)</comment>
+  </data>
+  <data name="Error_UndefinedType" xml:space="preserve">
+    <value>The type '{0}' was not found. Verify that you are not missing an assembly reference and that all referenced assemblies have been built.</value>
+    <comment>-instantiating a type in XAML that does not exist based on known namespaces, references</comment>
+  </data>
+  <data name="Error_UnescapedOpenTag" xml:space="preserve">
+    <value>The open angle bracket character '&lt;' is not valid in an attribute. It should be written as '&amp;lt;'.</value>
+    <comment>-no matching error case because &gt; is legal</comment>
+  </data>
+  <data name="Error_UnexpectedAttribute" xml:space="preserve">
+    <value>The attribute '{0}' is not defined in the markup compatibility namespace.</value>
+    <comment>-using an attribute that is not defined in the markup compatibility NS</comment>
+  </data>
+  <data name="Error_UnexpectedElement" xml:space="preserve">
+    <value>Element '{0}' not defined in the markup compatibility namespace.</value>
+    <comment>-using an element not in Markup compat NS</comment>
+  </data>
+  <data name="Error_UnexpectedText" xml:space="preserve">
+    <value>Text is not valid in an AlternateContent element.</value>
+    <comment>-not using markup compatibility NS incorrectly.Needs to be in Choice or Fallback</comment>
+  </data>
+  <data name="Error_UnexpectedToken" xml:space="preserve">
+    <value>Character sequence '{0}' was not expected at this location.</value>
+    <comment>-general fall back error message for the parser. Any syntax error will cause this, unless it is an identifier</comment>
+  </data>
+  <data name="Error_UnknownXamlAttribute" xml:space="preserve">
+    <value>The attribute '{0}' from the XAML namespace is not defined.</value>
+    <comment>-an attribute in the XAML NS is not found</comment>
+  </data>
+  <data name="Error_UnrecognizedRQName" xml:space="preserve">
+    <value>Unrecognized Refactor Qualified Name.</value>
+    <comment>- internal error if something goes wrong between VS and Cider when communicating via Refactoring Qualified Names from VSIP.</comment>
+  </data>
+  <data name="Error_UnsupportedRootRelativePath" xml:space="preserve">
+    <value>Project does not support paths relative to the root application directory. Remove the leading '/' qualifier from the '{0}' path to correct the problem.</value>
+  </data>
+  <data name="Error_UnterminatedCharacterData" xml:space="preserve">
+    <value>The end of the CDATA block was not found. CDATA blocks are terminated with the characters ']]&gt;'.</value>
+    <comment>-badly formed '&lt;[CDATA[ ...]]&gt;' construct</comment>
+  </data>
+  <data name="Error_UnterminatedComment" xml:space="preserve">
+    <value>The end of the comment was not found. Comments are terminated with the characters '--&gt;'.</value>
+    <comment>-badly formed comment block</comment>
+  </data>
+  <data name="Error_UnterminatedProcessingInstruction" xml:space="preserve">
+    <value>The end of the processing instruction was not found. Processing instructions are terminated with the characters '?&gt;'.</value>
+    <comment>-badly formed processing instruction</comment>
+  </data>
+  <data name="Error_UnterminatedString" xml:space="preserve">
+    <value>The end of the string was not found. The string is terminated with a ({0}) character.</value>
+    <comment>badly formed string</comment>
+  </data>
+  <data name="Error_UnterminatedXmlText" xml:space="preserve">
+    <value>The end of the text block was not found. The character data must be included in an element.</value>
+    <comment>-sequence of text that is not bound by &lt;..&gt;</comment>
+  </data>
+  <data name="Error_UsingNamespaceNotFoundInAssembly" xml:space="preserve">
+    <value>Undefined namespace. The 'using' URI refers to a namespace '{0}' that could not be found.</value>
+    <comment>
+			- UA_REVIEW;mmalone.  Also, don't localize 'using'.
+			- should be warning (ChuckJ)
+			- Used a namespace and assembly, but NS not found in assembly
+		</comment>
+  </data>
+  <data name="Error_WrongFrameworkLoaded" xml:space="preserve">
+    <value>The version of the .NET Framework that is installed is not the correct version for this version of $(VSGeneralBrandName).  Some features of the XAML designer may not be available.  Repair $(VSGeneralBrandName) to correct this problem.</value>
+    <comment>VSGeneralBrandName is not literal, and is substituted at build time.</comment>
+  </data>
+  <data name="Error_XamlAttributeOnlyValidOnRoot" xml:space="preserve">
+    <value>The attribute '{0}' from the XAML namespace is only accepted on the root element.</value>
+    <comment>-attributes such as x:Class</comment>
+  </data>
+  <data name="Error_XDataCanHaveOnlyOneElement" xml:space="preserve">
+    <value>An XData element in the XAML namespace can have only one child element.</value>
+  </data>
+</root>

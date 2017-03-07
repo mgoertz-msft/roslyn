@@ -37,6 +37,7 @@
       <CSharpErrorFactsGeneratorToolPath>$(CompilerGeneratorToolsDir)CSharpErrorFactsGenerator.exe</CSharpErrorFactsGeneratorToolPath>
       <VBErrorFactsGeneratorToolPath>$(CompilerGeneratorToolsDir)VBErrorFactsGenerator.exe</VBErrorFactsGeneratorToolPath>
       <VBSyntaxGeneratorToolPath>$(CompilerGeneratorToolsDir)VBSyntaxGenerator.exe</VBSyntaxGeneratorToolPath>
+      <XamlSyntaxGeneratorToolPath>$(CompilerGeneratorToolsDir)XamlSyntaxGenerator.exe</XamlSyntaxGeneratorToolPath>
       <BoundTreeGeneratorToolPath>$(CompilerGeneratorToolsDir)BoundTreeGenerator.exe</BoundTreeGeneratorToolPath>
 
       <!-- The syntax generation actually outputs three files: .Syntax, .Internal and .Main -->
@@ -51,12 +52,13 @@
   </Target>
 
   <Target Name="GenerateSyntaxModel"
-          Inputs="$(SyntaxDefinition);$(VBSyntaxGeneratorToolPath);$(CSharpSyntaxGeneratorToolPath)"
+          Inputs="$(SyntaxDefinition);$(VBSyntaxGeneratorToolPath);$(CSharpSyntaxGeneratorToolPath);$(XamlSyntaxGeneratorToolPath)"
           Outputs="$(GeneratedSyntaxFileSyntax);$(GeneratedSyntaxFileMain);$(GeneratedSyntaxFileInternal)"
           Condition="'$(SyntaxDefinition)' != '' AND '$(BuildingProject)' == 'true' AND ('$(Language)' == 'VB' OR '$(Language)' == 'C#')">
     <PropertyGroup>
       <SyntaxGenerator Condition="'$(Language)' == 'VB'">"$(CoreRunExe)" "$(VBSyntaxGeneratorToolPath)"</SyntaxGenerator>
-      <SyntaxGenerator Condition="'$(Language)' == 'C#'">"$(CoreRunExe)" "$(CSharpSyntaxGeneratorToolPath)"</SyntaxGenerator>
+      <SyntaxGenerator Condition="'$(Language)' == 'C#' AND '$(SyntaxLanguage)' != 'XAML'">"$(CoreRunExe)" "$(CSharpSyntaxGeneratorToolPath)"</SyntaxGenerator>
+      <SyntaxGenerator Condition="'$(Language)' == 'C#' AND '$(SyntaxLanguage)' == 'XAML'">"$(CoreRunExe)" "$(XamlSyntaxGeneratorToolPath)"</SyntaxGenerator>
     </PropertyGroup>
 
     <Exec Command="$(SyntaxGenerator) &quot;$(SyntaxDefinition)&quot; &quot;$(IntermediateOutputPath)&quot;"

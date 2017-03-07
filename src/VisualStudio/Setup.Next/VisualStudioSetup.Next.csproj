@@ -29,6 +29,10 @@
     <ExtensionInstallationFolder>Microsoft\ManagedLanguages\VBCSharp\LanguageServicesNext</ExtensionInstallationFolder>
   </PropertyGroup>
   <ItemGroup Label="Project References">
+    <ProjectReference Include="..\..\Compilers\Xaml\Portable\XamlCodeAnalysis.csproj">
+      <Project>{6ff730cc-5e90-437c-9325-93c7c44ce34e}</Project>
+      <Name>XamlCodeAnalysis</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\EditorFeatures\Next\EditorFeatures.Next.csproj">
       <Project>{366BBCDC-B05F-4677-9B5B-78BA816A1484}</Project>
       <Name>EditorFeatures.Next</Name>

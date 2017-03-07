@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c)  Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information. -->
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\build\Targets\Settings.props" />
+  <PropertyGroup>
+    <Platform Condition="'$(Platform)' == ''">AnyCPU</Platform>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ProjectGuid>{6FF730CC-5E90-437C-9325-93C7C44CE34E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Microsoft.CodeAnalysis.Xaml</RootNamespace>
+    <AssemblyName>Microsoft.CodeAnalysis.Xaml</AssemblyName>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFrameworkIdentifier>.NETPortable</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ServiceablePackage>true</ServiceablePackage>
+    <SyntaxLanguage>XAML</SyntaxLanguage>
+    <SyntaxDefinition>$(MSBuildThisFileDirectory)Syntax\Syntax.xml</SyntaxDefinition>
+    <CodeAnalysisRuleSet>..\CSharpCodeAnalysisRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'" />
+  <ItemGroup Label="Project References">
+    <ProjectReference Include="..\..\Core\Portable\CodeAnalysis.csproj">
+      <Project>{1EE8CAD3-55F9-4D91-96B2-084641DA9A6C}</Project>
+      <Name>CodeAnalysis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Errors\XamlDiagnosticFormatter.cs" />
+    <Compile Include="Errors\ErrorCode.cs" />
+    <Compile Include="Errors\ErrorFacts.cs" />
+    <Compile Include="Errors\MessageProvider.cs" />
+    <Compile Include="Errors\XamlDiagnostic.cs" />
+    <Compile Include="Errors\SyntaxDiagnosticInfo.cs" />
+    <Compile Include="Parser\AbstractLexer.cs" />
+    <Compile Include="Parser\BlendedNode.cs" />
+    <Compile Include="Parser\Blender.cs" />
+    <Compile Include="Parser\Blender.Cursor.cs" />
+    <Compile Include="Parser\Blender.Reader.cs" />
+    <Compile Include="Parser\LanguageParser.cs" />
+    <Compile Include="Parser\Lexer.cs" />
+    <Compile Include="Parser\LexerCache.cs" />
+    <Compile Include="Parser\SlidingTextWindow.cs" />
+    <Compile Include="Parser\SyntaxParser.cs" />
+    <Compile Include="Parser\SyntaxParser.ResetPoint.cs" />
+    <Compile Include="Parser\TokenSet.cs" />
+    <Compile Include="Parser\UnicodeUtilities.cs" />
+    <Compile Include="Parser\Validate.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxFirstTokenReplacer.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxLastTokenReplacer.cs" />
+    <Compile Include="Syntax\InternalSyntax\XamlSyntaxRewriter.cs" />
+    <Compile Include="Syntax\InternalSyntax\XamlSyntaxNodeCache.cs" />
+    <Compile Include="Syntax\InternalSyntax\StructuredTriviaSyntax.cs" />
+    <Compile Include="Syntax\SkippedTokensTriviaSyntax.cs" />
+    <Compile Include="Syntax\SyntaxNodeExtensions.cs" />
+    <Compile Include="Syntax\XamlSyntaxTree.ParsedSyntaxTree.cs" />
+    <Compile Include="Syntax\SimpleSyntaxReference.cs" />
+    <Compile Include="Syntax\SyntaxEquivalence.cs" />
+    <Compile Include="Syntax\SyntaxNormalizer.cs" />
+    <Compile Include="Syntax\SyntaxTreeDiagnosticEnumerator.cs" />
+    <Compile Include="XamlParseOptions.cs" />
+    <Compile Include="SymbolDisplay\SymbolDisplayVisitor.cs" />
+    <Compile Include="Syntax\XamlSyntaxTree.Dummy.cs" />
+    <Compile Include="Syntax\XamlSyntaxTree.cs" />
+    <Compile Include="Syntax\StructuredTriviaSyntax.cs" />
+    <Compile Include="Syntax\XamlSyntaxRewriter.cs" />
+    <Compile Include="Syntax\SyntaxFacts.cs" />
+    <Compile Include="XamlExtensions.cs" />
+    <Compile Include="Parser\CharacterInfo.cs" />
+    <Compile Include="SymbolDisplay\ObjectDisplay.cs" />
+    <Compile Include="SymbolDisplay\SymbolDisplay.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxFactory.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.MissingTokenWithTrivia.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxIdentifier.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxIdentifierExtended.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxIdentifierWithTrailingTrivia.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxIdentifierWithTrivia.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxLiteral.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxLiteralWithTrivia.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.SyntaxTokenWithTrivia.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxTrivia.cs" />
+    <Compile Include="Syntax\InternalSyntax\XamlSyntaxVisitor.cs" />
+    <Compile Include="Syntax\InternalSyntax\IdentifierNameSyntax.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxFactoryContext.cs" />
+    <Compile Include="Syntax\InternalSyntax\SyntaxToken.cs" />
+    <Compile Include="Syntax\InternalSyntax\XamlSyntaxNode.cs" />
+    <Compile Include="Syntax\SyntaxFactory.cs" />
+    <Compile Include="Syntax\SyntaxKind.cs" />
+    <Compile Include="Syntax\SyntaxKindEqualityComparer.cs" />
+    <Compile Include="Syntax\SyntaxKindFacts.cs" />
+    <Compile Include="Syntax\SyntaxNodeRemover.cs" />
+    <Compile Include="Syntax\SyntaxReplacer.cs" />
+    <Compile Include="Syntax\XamlSyntaxNode.cs" />
+    <Compile Include="Syntax\XamlSyntaxVisitor.cs" />
+    <Compile Include="XamlResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XamlResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="project.json" />
+    <None Include="..\CSharpCodeAnalysisRules.ruleset">
+      <SubType>Designer</SubType>
+    </None>
+    <PublicAPI Include="PublicAPI.Shipped.txt" />
+    <PublicAPI Include="PublicAPI.Unshipped.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(IntermediateOutputPath)Syntax.xml.Syntax.Generated.cs" />
+    <Compile Include="$(IntermediateOutputPath)Syntax.xml.Main.Generated.cs" />
+    <Compile Include="$(IntermediateOutputPath)Syntax.xml.Internal.Generated.cs" />
+    <EmbeddedResource Include="XamlResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XamlResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="..\..\..\..\build\Targets\Imports.targets" />
+</Project>

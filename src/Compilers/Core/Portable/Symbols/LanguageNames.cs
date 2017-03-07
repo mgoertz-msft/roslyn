@@ -18,5 +18,10 @@ namespace Microsoft.CodeAnalysis
         /// The common name used for the Visual Basic language.
         /// </summary>
         public const string VisualBasic = "Visual Basic";
+
+        /// <summary>
+        /// The common name used for the XAML language.
+        /// </summary>
+        public const string Xaml = "Xaml";
     }
 }

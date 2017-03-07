@@ -50,6 +50,10 @@
       <Project>{6aa96934-d6b7-4cc8-990d-db6b9dd56e34}</Project>
       <Name>VisualBasicSyntaxGenerator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Source\XamlSyntaxGenerator\XamlSyntaxGenerator.csproj">
+      <Project>{fb584f3d-3f08-4c47-8a3b-1bc43bed1c1a}</Project>
+      <Name>XamlSyntaxGenerator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\..\..\..\..\build\Targets\Imports.targets" />
 </Project>

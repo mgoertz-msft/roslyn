@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,10 +14,30 @@ using Microsoft.VisualStudio.ComponentModelHost;
 using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.Text.Editor;
+using Microsoft.VisualStudio.Utilities;
 using Roslyn.SyntaxVisualizer.DgmlHelper;
 
 namespace Roslyn.SyntaxVisualizer.Extension
 {
+    internal static class IContentTypeExtensions
+    {
+        /// <summary>
+        /// Test whether an extension matches a content type.
+        /// </summary>
+        /// <param name="dataContentType">Content type (typically of a text buffer) against which to
+        /// match an extension.</param>
+        /// <param name="extensionContentTypes">Content types from extension metadata.</param>
+        public static bool MatchesAny(this IContentType dataContentType, IEnumerable<string> extensionContentTypes)
+        {
+            return extensionContentTypes.Any(v => dataContentType.IsOfType(v));
+        }
+
+        public static bool MatchesAny(this IContentType dataContentType, params string[] extensionContentTypes)
+        {
+            return dataContentType.MatchesAny((IEnumerable<string>)extensionContentTypes);
+        }
+    }
+
     // Control that hosts SyntaxVisualizerControl inside a Visual Studio ToolWindow. This control implements all the
     // logic necessary for interaction with Visual Studio's code documents and directed graph documents.
     internal partial class SyntaxVisualizerContainer : UserControl, IVsRunningDocTableEvents, IVsSolutionEvents, IDisposable
@@ -27,6 +49,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
 
         private const string CSharpContentType = "CSharp";
         private const string VisualBasicContentType = "Basic";
+        private const string XamlContentType = "Xaml";
         private readonly TimeSpan typingTimerTimeout = TimeSpan.FromMilliseconds(300);
 
         internal SyntaxVisualizerContainer(SyntaxVisualizerToolWindow parent)
@@ -206,8 +229,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
                 var snapshot = activeWpfTextView.TextBuffer.CurrentSnapshot;
                 var contentType = snapshot.ContentType;
 
-                if (contentType.IsOfType(VisualBasicContentType) ||
-                    contentType.IsOfType(CSharpContentType))
+                if (contentType.MatchesAny(CSharpContentType, VisualBasicContentType, XamlContentType))
                 {
                     // Get the Document corresponding to the currently active text snapshot.
                     var document = snapshot.GetOpenDocumentInCurrentContextWithChanges();
@@ -218,10 +240,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
                         var activeSemanticModel = document.GetSemanticModelAsync().Result;
 
                         // Display the SyntaxTree.
-                        if (contentType.IsOfType(VisualBasicContentType) || contentType.IsOfType(CSharpContentType))
-                        {
-                            syntaxVisualizer.DisplaySyntaxTree(activeSyntaxTree, activeSemanticModel);
-                        }
+                        syntaxVisualizer.DisplaySyntaxTree(activeSyntaxTree, activeSemanticModel);
 
                         NavigateFromSource();
                     }
@@ -298,8 +317,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
                 if (wpfTextView != null)
                 {
                     var contentType = wpfTextView.TextBuffer.ContentType;
-                    if (contentType.IsOfType(VisualBasicContentType) ||
-                        contentType.IsOfType(CSharpContentType))
+                    if (contentType.MatchesAny(CSharpContentType, VisualBasicContentType, XamlContentType))
                     {
                         Clear();
                         activeWpfTextView = wpfTextView;
@@ -473,7 +491,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
                 var contentType = snapshot.ContentType;
                 XElement dgml = null;
 
-                if (contentType.IsOfType(CSharpContentType) || contentType.IsOfType(VisualBasicContentType))
+                if (contentType.MatchesAny(CSharpContentType, VisualBasicContentType, XamlContentType))
                 {
                     dgml = node.ToDgml();
                 }
@@ -490,7 +508,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
                 var contentType = snapshot.ContentType;
                 XElement dgml = null;
 
-                if (contentType.IsOfType(CSharpContentType) || contentType.IsOfType(VisualBasicContentType))
+                if (contentType.MatchesAny(CSharpContentType, VisualBasicContentType, XamlContentType))
                 {
                     dgml = token.ToDgml();
                 }
@@ -507,7 +525,7 @@ namespace Roslyn.SyntaxVisualizer.Extension
                 var contentType = snapshot.ContentType;
                 XElement dgml = null;
 
-                if (contentType.IsOfType(CSharpContentType) || contentType.IsOfType(VisualBasicContentType))
+                if (contentType.MatchesAny(CSharpContentType, VisualBasicContentType, XamlContentType))
                 {
                     dgml = trivia.ToDgml();
                 }

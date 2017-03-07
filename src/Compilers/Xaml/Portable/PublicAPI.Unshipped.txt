@@ -1,0 +1,600 @@
+Microsoft.CodeAnalysis.Xaml.SymbolDisplay
+Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken identifier) -> Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax.WithIdentifier(Microsoft.CodeAnalysis.SyntaxToken identifier) -> Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.DotToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.Left.get -> Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.Right.get -> Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.Update(Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax left, Microsoft.CodeAnalysis.SyntaxToken dotToken, Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.WithDotToken(Microsoft.CodeAnalysis.SyntaxToken dotToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.WithLeft(Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax left) -> Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.WithRight(Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.StructuredTriviaSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.TypeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.EndCDataToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.StartCDataToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken startCDataToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endCDataToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.WithEndCDataToken(Microsoft.CodeAnalysis.SyntaxToken endCDataToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.WithStartCDataToken(Microsoft.CodeAnalysis.SyntaxToken startCDataToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.LessThanExclamationMinusMinusToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.MinusMinusGreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanExclamationMinusMinusToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken minusMinusGreaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.WithLessThanExclamationMinusMinusToken(Microsoft.CodeAnalysis.SyntaxToken lessThanExclamationMinusMinusToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.WithMinusMinusGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken minusMinusGreaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.GreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.LessThanSlashToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanSlashToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.WithGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.WithLessThanSlashToken(Microsoft.CodeAnalysis.SyntaxToken lessThanSlashToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.WithName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.AddAttributes(params Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.Attributes.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax>
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.GreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.LessThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.WithAttributes(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.WithGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.WithLessThanToken(Microsoft.CodeAnalysis.SyntaxToken lessThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.WithName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.AddContent(params Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.AddStartTagAttributes(params Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.Content.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax>
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.EndTag.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.StartTag.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.Update(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax startTag, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax> content, Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.WithContent(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax> content) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.WithEndTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.WithStartTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax startTag) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.AddAttributes(params Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.Attributes.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax>
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.LessThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.SlashGreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken slashGreaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.WithAttributes(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.WithLessThanToken(Microsoft.CodeAnalysis.SyntaxToken lessThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.WithName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.WithSlashGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken slashGreaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.Identifier.get -> Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.Update(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.WithEndQuoteToken(Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.WithEqualsToken(Microsoft.CodeAnalysis.SyntaxToken equalsToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.WithIdentifier(Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax identifier) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.WithName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.WithStartQuoteToken(Microsoft.CodeAnalysis.SyntaxToken startQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.LocalName.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.Prefix.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.Update(Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax prefix, Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.WithLocalName(Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.WithPrefix(Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax prefix) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.ColonToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.Prefix.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken prefix, Microsoft.CodeAnalysis.SyntaxToken colonToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.WithColonToken(Microsoft.CodeAnalysis.SyntaxToken colonToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.WithPrefix(Microsoft.CodeAnalysis.SyntaxToken prefix) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.EndProcessingInstructionToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.StartProcessingInstructionToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken startProcessingInstructionToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.WithEndProcessingInstructionToken(Microsoft.CodeAnalysis.SyntaxToken endProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.WithName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.WithStartProcessingInstructionToken(Microsoft.CodeAnalysis.SyntaxToken startProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.Update(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.WithEndQuoteToken(Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.WithEqualsToken(Microsoft.CodeAnalysis.SyntaxToken equalsToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.WithName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.WithStartQuoteToken(Microsoft.CodeAnalysis.SyntaxToken startQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax.Update(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+Microsoft.CodeAnalysis.Xaml.SyntaxFactory
+Microsoft.CodeAnalysis.Xaml.SyntaxFacts
+Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AliasQualifiedName = 9620 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AmpersandToken = 9198 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.ArrayRankSpecifier = 9623 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.ArrayType = 9622 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AsteriskToken = 9199 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.Attribute = 9849 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AttributeArgument = 9851 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AttributeArgumentList = 9850 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AttributeList = 9847 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.AttributeTargetSpecifier = 9848 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.BackslashToken = 9210 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.BadToken = 9507 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.BarToken = 9209 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CaretToken = 9197 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CharacterLiteralExpression = 9751 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CharacterLiteralToken = 9510 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CloseBraceToken = 9206 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CloseBracketToken = 9208 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CloseParenToken = 9201 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.ColonToken = 9211 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CommaToken = 9216 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.ConversionOperatorMemberCref = 9602 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CrefBracketedParameterList = 9604 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CrefParameter = 9605 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.CrefParameterList = 9603 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.DisabledTextTrivia = 9546 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.DocumentationCommentExteriorTrivia = 9543 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.DollarToken = 9195 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.DotToken = 9218 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.DoubleQuoteToken = 9213 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.EndOfDocumentationCommentToken = 9495 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.EndOfFileToken = 9496 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.EndOfLineTrivia = 9539 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.EndRegionDirectiveTrivia = 9553 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.EndRegionKeyword = 9470 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.EqualsToken = 9204 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.ExclamationToken = 9194 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.FalseKeyword = 9324 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.FalseLiteralExpression = 9753 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.GenericName = 9618 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.GreaterThanToken = 9217 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.HashToken = 9220 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.IdentifierName = 9616 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.IdentifierToken = 9508 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.IndexerMemberCref = 9600 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.InternalKeyword = 9345 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.LessThanSlashToken = 9233 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.LessThanToken = 9215 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.List = 1 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.MinusToken = 9202 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.MultiLineCommentTrivia = 9542 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.MultiLineDocumentationCommentTrivia = 9545 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NameEquals = 9852 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NameMemberCref = 9599 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NamespaceKeyword = 9372 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.None = 0 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NullKeyword = 9322 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NullLiteralExpression = 9754 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NullableType = 9625 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NumericLiteralExpression = 9749 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.NumericLiteralToken = 9509 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.OmittedTypeArgument = 9626 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.OpenBraceToken = 9205 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.OpenBracketToken = 9207 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.OpenParenToken = 9200 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.OperatorMemberCref = 9601 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.PercentToken = 9196 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.PlusToken = 9203 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.PointerType = 9624 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.PredefinedType = 9621 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.PrivateKeyword = 9344 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.ProtectedKeyword = 9346 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.PublicKeyword = 9343 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.QualifiedCref = 9598 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.QualifiedName = 9617 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.QuestionToken = 9219 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.RegionDirectiveTrivia = 9552 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.RegionKeyword = 9469 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SemicolonToken = 9212 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SingleLineCommentTrivia = 9541 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SingleLineDocumentationCommentTrivia = 9544 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SingleQuoteToken = 9214 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SkippedTokensTrivia = 9563 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SlashGreaterThanToken = 9232 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.SlashToken = 9221 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.StringLiteralExpression = 9750 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.StringLiteralToken = 9511 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.TildeToken = 9193 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.TrueKeyword = 9323 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.TrueLiteralExpression = 9752 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.TypeArgumentList = 9619 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.TypeCref = 9597 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.UnderscoreToken = 9491 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.WhitespaceTrivia = 9540 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlBody = 9840 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlCDataEndToken = 9237 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlCDataSection = 9584 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlCDataStartToken = 9236 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlComment = 9585 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlCommentEndToken = 9235 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlCommentStartToken = 9234 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlCrefAttribute = 9579 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlElement = 9574 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlElementEndTag = 9576 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlElementStartTag = 9575 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlEmptyElement = 9577 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlEntityLiteralToken = 9512 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlName = 9581 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlNameAttribute = 9580 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlPrefix = 9582 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlProcessingInstruction = 9586 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlProcessingInstructionEndToken = 9239 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlProcessingInstructionStartToken = 9238 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlText = 9583 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlTextAttribute = 9578 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlTextLiteralNewLineToken = 9514 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.SyntaxKind.XamlTextLiteralToken = 9513 -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.XamlDiagnosticFormatter
+Microsoft.CodeAnalysis.Xaml.XamlExtensions
+Microsoft.CodeAnalysis.Xaml.XamlParseOptions
+Microsoft.CodeAnalysis.Xaml.XamlParseOptions.Equals(Microsoft.CodeAnalysis.Xaml.XamlParseOptions other) -> bool
+Microsoft.CodeAnalysis.Xaml.XamlParseOptions.WithDocumentationMode(Microsoft.CodeAnalysis.DocumentationMode documentationMode) -> Microsoft.CodeAnalysis.Xaml.XamlParseOptions
+Microsoft.CodeAnalysis.Xaml.XamlParseOptions.WithFeatures(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>> features) -> Microsoft.CodeAnalysis.Xaml.XamlParseOptions
+Microsoft.CodeAnalysis.Xaml.XamlParseOptions.WithKind(Microsoft.CodeAnalysis.SourceCodeKind kind) -> Microsoft.CodeAnalysis.Xaml.XamlParseOptions
+Microsoft.CodeAnalysis.Xaml.XamlParseOptions.XamlParseOptions(Microsoft.CodeAnalysis.DocumentationMode documentationMode = Microsoft.CodeAnalysis.DocumentationMode.Parse, Microsoft.CodeAnalysis.SourceCodeKind kind = Microsoft.CodeAnalysis.SourceCodeKind.Regular) -> void
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.FindToken(int position, bool findInsideTrivia = false) -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.FindTrivia(int position, System.Func<Microsoft.CodeAnalysis.SyntaxTrivia, bool> stepInto) -> Microsoft.CodeAnalysis.SyntaxTrivia
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.FindTrivia(int position, bool findInsideTrivia = false) -> Microsoft.CodeAnalysis.SyntaxTrivia
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.GetDiagnostics() -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.GetFirstToken(bool includeZeroWidth = false, bool includeSkipped = false, bool includeDirectives = false, bool includeDocumentationComments = false) -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.GetLastToken(bool includeZeroWidth = false, bool includeSkipped = false, bool includeDirectives = false, bool includeDocumentationComments = false) -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.GetLeadingTrivia() -> Microsoft.CodeAnalysis.SyntaxTriviaList
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.GetLocation() -> Microsoft.CodeAnalysis.Location
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.GetTrailingTrivia() -> Microsoft.CodeAnalysis.SyntaxTriviaList
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.Kind() -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.XamlSyntaxRewriter(bool visitIntoStructuredTrivia = false) -> void
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.CloneNodeAsRoot<T>(T node) -> T
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.XamlSyntaxTree() -> void
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.XamlSyntaxVisitor() -> void
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>
+Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.XamlSyntaxVisitor() -> void
+Microsoft.CodeAnalysis.XamlExtensions
+abstract Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax.Identifier.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax.EndQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax.EqualsToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+abstract Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax.StartQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+abstract Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+abstract Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetRoot(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode
+abstract Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.Options.get -> Microsoft.CodeAnalysis.Xaml.XamlParseOptions
+abstract Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.TryGetRoot(out Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode root) -> bool
+override Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax.Identifier.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.StructuredTriviaSyntax.ParentTrivia.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.EndQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.EqualsToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax.StartQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.EndQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.EqualsToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.Name.get -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax.StartQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax.Accept(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xaml.XamlParseOptions.CommonWithKind(Microsoft.CodeAnalysis.SourceCodeKind kind) -> Microsoft.CodeAnalysis.ParseOptions
+override Microsoft.CodeAnalysis.Xaml.XamlParseOptions.Equals(object obj) -> bool
+override Microsoft.CodeAnalysis.Xaml.XamlParseOptions.Features.get -> System.Collections.Generic.IReadOnlyDictionary<string, string>
+override Microsoft.CodeAnalysis.Xaml.XamlParseOptions.GetHashCode() -> int
+override Microsoft.CodeAnalysis.Xaml.XamlParseOptions.Language.get -> string
+override Microsoft.CodeAnalysis.Xaml.XamlParseOptions.PreprocessorSymbolNames.get -> System.Collections.Generic.IEnumerable<string>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.Language.get -> string
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.Visit(Microsoft.CodeAnalysis.SyntaxNode node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitIdentifierName(Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitQualifiedName(Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlCDataSection(Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlComment(Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlElementEndTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlElementStartTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlEmptyElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlNameAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlPrefix(Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlProcessingInstruction(Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlText(Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitXamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetChangedSpans(Microsoft.CodeAnalysis.SyntaxTree oldTree) -> System.Collections.Generic.IList<Microsoft.CodeAnalysis.Text.TextSpan>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetChanges(Microsoft.CodeAnalysis.SyntaxTree oldTree) -> System.Collections.Generic.IList<Microsoft.CodeAnalysis.Text.TextChange>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxNode node) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxToken token) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetDiagnostics(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetLineSpan(Microsoft.CodeAnalysis.Text.TextSpan span, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.FileLinePositionSpan
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetLineVisibility(int position, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.LineVisibility
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetLocation(Microsoft.CodeAnalysis.Text.TextSpan span) -> Microsoft.CodeAnalysis.Location
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetMappedLineSpan(Microsoft.CodeAnalysis.Text.TextSpan span, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.FileLinePositionSpan
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetRootAsyncCore(System.Threading.CancellationToken cancellationToken) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.SyntaxNode>
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetRootCore(System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.HasHiddenRegions() -> bool
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.IsEquivalentTo(Microsoft.CodeAnalysis.SyntaxTree tree, bool topLevel = false) -> bool
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.OptionsCore.get -> Microsoft.CodeAnalysis.ParseOptions
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.TryGetRootCore(out Microsoft.CodeAnalysis.SyntaxNode root) -> bool
+override Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.WithChangedText(Microsoft.CodeAnalysis.Text.SourceText newText) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.FormatLiteral(char c, bool quote) -> string
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.FormatLiteral(string value, bool quote) -> string
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.FormatPrimitive(object obj, bool quoteStrings, bool useHexadecimalNumbers) -> string
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.ToDisplayParts(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> System.Collections.Immutable.ImmutableArray<Microsoft.CodeAnalysis.SymbolDisplayPart>
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.ToDisplayString(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> string
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.ToMinimalDisplayParts(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SemanticModel semanticModel, int position, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> System.Collections.Immutable.ImmutableArray<Microsoft.CodeAnalysis.SymbolDisplayPart>
+static Microsoft.CodeAnalysis.Xaml.SymbolDisplay.ToMinimalDisplayString(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SemanticModel semanticModel, int position, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> string
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxNode oldNode, Microsoft.CodeAnalysis.SyntaxNode newNode, System.Func<Microsoft.CodeAnalysis.Xaml.SyntaxKind, bool> ignoreChildNode = null) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxNode oldNode, Microsoft.CodeAnalysis.SyntaxNode newNode, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxToken oldToken, Microsoft.CodeAnalysis.SyntaxToken newToken) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxTokenList oldList, Microsoft.CodeAnalysis.SyntaxTokenList newList) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxTree oldTree, Microsoft.CodeAnalysis.SyntaxTree newTree, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> newList, System.Func<Microsoft.CodeAnalysis.Xaml.SyntaxKind, bool> ignoreChildNode = null) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> newList, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SyntaxList<TNode> newList, System.Func<Microsoft.CodeAnalysis.Xaml.SyntaxKind, bool> ignoreChildNode = null) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SyntaxList<TNode> newList, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.BadToken(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.CarriageReturn.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.CarriageReturnLineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Comment(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.DocumentationCommentExterior(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticCarriageReturn.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticCarriageReturnLineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticEndOfLine(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticLineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticMarker.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticSpace.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticTab.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ElasticWhitespace(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.EndOfLine(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.EndOfLine(string text, bool elastic) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Identifier(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xaml.SyntaxKind contextualKind, string text, string valueText, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Identifier(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Identifier(string text) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.IdentifierName(Microsoft.CodeAnalysis.SyntaxToken identifier) -> Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.IdentifierName(string name) -> Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.LineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.List<TNode>() -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.List<TNode>(System.Collections.Generic.IEnumerable<TNode> nodes) -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, char value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, decimal value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, double value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, float value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, int value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, long value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, uint value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, ulong value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(char value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(decimal value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(double value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(float value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(int value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(long value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, char value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, decimal value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, double value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, float value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, int value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, long value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, uint value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string text, ulong value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(uint value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Literal(ulong value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.MissingToken(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.MissingToken(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.NodeOrTokenList() -> Microsoft.CodeAnalysis.SyntaxNodeOrTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.NodeOrTokenList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxNodeOrToken> nodesAndTokens) -> Microsoft.CodeAnalysis.SyntaxNodeOrTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.NodeOrTokenList(params Microsoft.CodeAnalysis.SyntaxNodeOrToken[] nodesAndTokens) -> Microsoft.CodeAnalysis.SyntaxNodeOrTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseLeadingTrivia(string text, int offset = 0) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseName(string text, int offset = 0, bool consumeFullText = true) -> Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseSyntaxTree(Microsoft.CodeAnalysis.Text.SourceText text, Microsoft.CodeAnalysis.ParseOptions options = null, string path = "", System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseSyntaxTree(string text, Microsoft.CodeAnalysis.ParseOptions options = null, string path = "", System.Text.Encoding encoding = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseToken(string text, int offset = 0) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseTokens(string text, int offset = 0, int initialTokenPosition = 0, Microsoft.CodeAnalysis.Xaml.XamlParseOptions options = null) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxToken>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseTrailingTrivia(string text, int offset = 0) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.ParseTypeName(string text, int offset = 0, bool consumeFullText = true) -> Microsoft.CodeAnalysis.Xaml.Syntax.TypeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.QualifiedName(Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax left, Microsoft.CodeAnalysis.SyntaxToken dotToken, Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.QualifiedName(Microsoft.CodeAnalysis.Xaml.Syntax.NameSyntax left, Microsoft.CodeAnalysis.Xaml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SeparatedList<TNode>() -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SeparatedList<TNode>(Microsoft.CodeAnalysis.SyntaxNodeOrTokenList nodesAndTokens) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SeparatedList<TNode>(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxNodeOrToken> nodesAndTokens) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SeparatedList<TNode>(System.Collections.Generic.IEnumerable<TNode> nodes) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SeparatedList<TNode>(System.Collections.Generic.IEnumerable<TNode> nodes, System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxToken> separators) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SingletonList<TNode>(TNode node) -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SingletonSeparatedList<TNode>(TNode node) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Space.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SyntaxTree(Microsoft.CodeAnalysis.SyntaxNode root, Microsoft.CodeAnalysis.ParseOptions options = null, string path = "", System.Text.Encoding encoding = null) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.SyntaxTrivia(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind, string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Tab.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Token(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Token(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind, string text, string valueText, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Token(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TokenList() -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TokenList(Microsoft.CodeAnalysis.SyntaxToken token) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TokenList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxToken> tokens) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TokenList(params Microsoft.CodeAnalysis.SyntaxToken[] tokens) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Trivia(Microsoft.CodeAnalysis.Xaml.Syntax.StructuredTriviaSyntax node) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TriviaList() -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TriviaList(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TriviaList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxTrivia> trivias) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.TriviaList(params Microsoft.CodeAnalysis.SyntaxTrivia[] trivias) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.VerbatimIdentifier(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string valueText, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Whitespace(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.Whitespace(string text, bool elastic) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlCDataSection(Microsoft.CodeAnalysis.SyntaxToken startCDataToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endCDataToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlCDataSection(Microsoft.CodeAnalysis.SyntaxTokenList textTokens = default(Microsoft.CodeAnalysis.SyntaxTokenList)) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlComment(Microsoft.CodeAnalysis.SyntaxToken lessThanExclamationMinusMinusToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken minusMinusGreaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlComment(Microsoft.CodeAnalysis.SyntaxTokenList textTokens = default(Microsoft.CodeAnalysis.SyntaxTokenList)) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax startTag, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax> content, Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax startTag, Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElementEndTag(Microsoft.CodeAnalysis.SyntaxToken lessThanSlashToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElementEndTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElementStartTag(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElementStartTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlElementStartTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlEmptyElement(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken slashGreaterThanToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlEmptyElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlEmptyElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlMultiLineElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax> content) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlMultiLineElement(string localName, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xaml.Syntax.XamlNodeSyntax> content) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlName(Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax prefix, Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlName(string localName) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlNameAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlNameAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlNameAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, string identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlNewLine(string text) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlPrefix(Microsoft.CodeAnalysis.SyntaxToken prefix) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlPrefix(Microsoft.CodeAnalysis.SyntaxToken prefix, Microsoft.CodeAnalysis.SyntaxToken colonToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlPrefix(string prefix) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlProcessingInstruction(Microsoft.CodeAnalysis.SyntaxToken startProcessingInstructionToken, Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlProcessingInstruction(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlProcessingInstruction(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlText() -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlText(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlText(params Microsoft.CodeAnalysis.SyntaxToken[] textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlText(string value) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax name, Microsoft.CodeAnalysis.Xaml.SyntaxKind quoteKind, Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(string name, Microsoft.CodeAnalysis.Xaml.SyntaxKind quoteKind, Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(string name, params Microsoft.CodeAnalysis.SyntaxToken[] textTokens) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextAttribute(string name, string value) -> Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextLiteral(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextLiteral(string text, string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextLiteral(string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextNewLine(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextNewLine(string text) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFactory.XamlTextNewLine(string text, bool continueXamlDocumentationComment) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.EqualityComparer.get -> System.Collections.Generic.IEqualityComparer<Microsoft.CodeAnalysis.Xaml.SyntaxKind>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.GetKeywordKind(string text) -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.GetKeywordKinds() -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Xaml.SyntaxKind>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.GetReservedKeywordKinds() -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Xaml.SyntaxKind>
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.GetText(Microsoft.CodeAnalysis.Accessibility accessibility) -> string
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.GetText(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> string
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsAccessibilityModifier(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsAnyToken(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsDocumentationCommentTrivia(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsIdentifierPartCharacter(char ch) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsIdentifierStartCharacter(char ch) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsKeywordKind(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsName(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsNewLine(char ch) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsReservedKeyword(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsTrivia(Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsValidIdentifier(string name) -> bool
+static Microsoft.CodeAnalysis.Xaml.SyntaxFacts.IsWhitespace(char ch) -> bool
+static Microsoft.CodeAnalysis.Xaml.XamlDiagnosticFormatter.Instance.get -> Microsoft.CodeAnalysis.Xaml.XamlDiagnosticFormatter
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.Insert(this Microsoft.CodeAnalysis.SyntaxTokenList list, int index, params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.IsKeyword(this Microsoft.CodeAnalysis.SyntaxToken token) -> bool
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.IsReservedKeyword(this Microsoft.CodeAnalysis.SyntaxToken token) -> bool
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxNode node) -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken) -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxToken token) -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> Microsoft.CodeAnalysis.Xaml.SyntaxKind
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.ReplaceTrivia(this Microsoft.CodeAnalysis.SyntaxToken token, Microsoft.CodeAnalysis.SyntaxTrivia oldTrivia, Microsoft.CodeAnalysis.SyntaxTrivia newTrivia) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.ReplaceTrivia(this Microsoft.CodeAnalysis.SyntaxToken token, System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxTrivia> trivia, System.Func<Microsoft.CodeAnalysis.SyntaxTrivia, Microsoft.CodeAnalysis.SyntaxTrivia, Microsoft.CodeAnalysis.SyntaxTrivia> computeReplacementTrivia) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xaml.XamlExtensions.VarianceKindFromToken(this Microsoft.CodeAnalysis.SyntaxToken node) -> Microsoft.CodeAnalysis.VarianceKind
+static Microsoft.CodeAnalysis.Xaml.XamlParseOptions.Default.get -> Microsoft.CodeAnalysis.Xaml.XamlParseOptions
+static Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode.DeserializeFrom(System.IO.Stream stream, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxNode
+static Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.Create(Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode root, Microsoft.CodeAnalysis.Xaml.XamlParseOptions options = null, string path = "", System.Text.Encoding encoding = null) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.ParseText(Microsoft.CodeAnalysis.Text.SourceText text, Microsoft.CodeAnalysis.Xaml.XamlParseOptions options = null, string path = "", System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.ParseText(string text, Microsoft.CodeAnalysis.Xaml.XamlParseOptions options = null, string path = "", System.Text.Encoding encoding = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.XamlExtensions.Any(this Microsoft.CodeAnalysis.SyntaxTokenList list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.Any(this Microsoft.CodeAnalysis.SyntaxTriviaList list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.Any<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.Any<TNode>(this Microsoft.CodeAnalysis.SyntaxList<TNode> list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.IndexOf(this Microsoft.CodeAnalysis.SyntaxTokenList list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XamlExtensions.IndexOf(this Microsoft.CodeAnalysis.SyntaxTriviaList list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XamlExtensions.IndexOf<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XamlExtensions.IndexOf<TNode>(this Microsoft.CodeAnalysis.SyntaxList<TNode> list, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XamlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XamlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia, Microsoft.CodeAnalysis.Xaml.SyntaxKind kind) -> bool
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitIntoStructuredTrivia.get -> bool
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitList(Microsoft.CodeAnalysis.SyntaxTokenList list) -> Microsoft.CodeAnalysis.SyntaxTokenList
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitList(Microsoft.CodeAnalysis.SyntaxTriviaList list) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitList<TNode>(Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> list) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitList<TNode>(Microsoft.CodeAnalysis.SyntaxList<TNode> list) -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitListElement(Microsoft.CodeAnalysis.SyntaxTrivia element) -> Microsoft.CodeAnalysis.SyntaxTrivia
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitListElement<TNode>(TNode node) -> TNode
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitListSeparator(Microsoft.CodeAnalysis.SyntaxToken separator) -> Microsoft.CodeAnalysis.SyntaxToken
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitToken(Microsoft.CodeAnalysis.SyntaxToken token) -> Microsoft.CodeAnalysis.SyntaxToken
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxRewriter.VisitTrivia(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> Microsoft.CodeAnalysis.SyntaxTrivia
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxTree.GetRootAsync(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Xaml.XamlSyntaxNode>
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.DefaultVisit(Microsoft.CodeAnalysis.SyntaxNode node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.Visit(Microsoft.CodeAnalysis.SyntaxNode node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitIdentifierName(Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitQualifiedName(Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlCDataSection(Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlComment(Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlElementEndTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlElementStartTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlEmptyElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlNameAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlPrefix(Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlProcessingInstruction(Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlText(Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor.VisitXamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.DefaultVisit(Microsoft.CodeAnalysis.SyntaxNode node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.Visit(Microsoft.CodeAnalysis.SyntaxNode node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitIdentifierName(Microsoft.CodeAnalysis.Xaml.Syntax.IdentifierNameSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitQualifiedName(Microsoft.CodeAnalysis.Xaml.Syntax.QualifiedNameSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlCDataSection(Microsoft.CodeAnalysis.Xaml.Syntax.XamlCDataSectionSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlComment(Microsoft.CodeAnalysis.Xaml.Syntax.XamlCommentSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlElementEndTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementEndTagSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlElementStartTag(Microsoft.CodeAnalysis.Xaml.Syntax.XamlElementStartTagSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlEmptyElement(Microsoft.CodeAnalysis.Xaml.Syntax.XamlEmptyElementSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlName(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlNameAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlNameAttributeSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlPrefix(Microsoft.CodeAnalysis.Xaml.Syntax.XamlPrefixSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlProcessingInstruction(Microsoft.CodeAnalysis.Xaml.Syntax.XamlProcessingInstructionSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlText(Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xaml.XamlSyntaxVisitor<TResult>.VisitXamlTextAttribute(Microsoft.CodeAnalysis.Xaml.Syntax.XamlTextAttributeSyntax node) -> TResult

@@ -26,6 +26,10 @@
       <Project>{1EE8CAD3-55F9-4D91-96B2-084641DA9A6C}</Project>
       <Name>CodeAnalysis</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Compilers\Xaml\Portable\XamlCodeAnalysis.csproj">
+      <Project>{6ff730cc-5e90-437c-9325-93c7c44ce34e}</Project>
+      <Name>XamlCodeAnalysis</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\EditorFeatures\Core\EditorFeatures.csproj">
       <Project>{3CDEEAB7-2256-418A-BEB2-620B5CB16302}</Project>
       <Name>EditorFeatures</Name>
@@ -55,6 +59,11 @@
     <Compile Include="Diagnostics\Analyzers\IXamlDocumentAnalyzerService.cs" />
     <Compile Include="Diagnostics\Analyzers\XamlDocumentDiagnosticAnalyzer.cs" />
     <Compile Include="Diagnostics\XamlDiagnosticIds.cs" />
+    <Compile Include="Extensions\SyntaxNodeExtensions.cs" />
+    <Compile Include="Extensions\SyntaxNodeExtensions.SingleLineRewriter.cs" />
+    <Compile Include="Extensions\SyntaxTokenExtensions.cs" />
+    <Compile Include="Extensions\SyntaxTreeExtensions.cs" />
+    <Compile Include="Extensions\SyntaxTriviaExtensions.cs" />
     <Compile Include="Features\DocumentSpan.cs" />
     <Compile Include="Features\InlineRename\IXamlRenameInfoService.cs" />
     <Compile Include="Features\InlineRename\IXamlRenameInfo.cs" />
@@ -68,6 +77,13 @@
     <Compile Include="Implementation\XamlTextViewCreationListener_IVsSolutionEvents.cs" />
     <Compile Include="Implementation\XamlOleCommandTarget.cs" />
     <Compile Include="Implementation\XamlTextViewCreationListener.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxFactsService.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxFactsServiceFactory.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxTreeFactoryService.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxTreeFactoryService.NullSyntaxReference.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxTreeFactoryService.PathSyntaxReference.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxTreeFactoryService.PositionalSyntaxReference.cs" />
+    <Compile Include="LanguageServices\XamlSyntaxTreeFactoryService.RecoverableSyntaxTree.cs" />
     <Compile Include="Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

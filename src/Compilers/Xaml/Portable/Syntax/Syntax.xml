@@ -1,0 +1,230 @@
+<?Xaml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c)  Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information. -->
+
+<Tree Root="SyntaxNode">
+  <PredefinedNode Name="XamlSyntaxNode" Base="SyntaxNode"/>
+  <PredefinedNode Name="SyntaxToken" Base="XamlSyntaxNode"/>
+  <PredefinedNode Name="StructuredTriviaSyntax" Base="XamlSyntaxNode"/>
+  <AbstractNode Name="XamlNodeSyntax" Base="XamlSyntaxNode">
+  </AbstractNode>
+  <AbstractNode Name="TypeSyntax" Base="XamlSyntaxNode">
+    <TypeComment>
+      <summary>Provides the base class from which the classes that represent type syntax nodes are derived. This is an abstract class.</summary>
+    </TypeComment>
+  </AbstractNode>
+  <AbstractNode Name="NameSyntax" Base="TypeSyntax">
+    <TypeComment>
+      <summary>Provides the base class from which the classes that represent name syntax nodes are derived. This is an abstract class.</summary>
+    </TypeComment>
+  </AbstractNode>
+  <AbstractNode Name="SimpleNameSyntax" Base="NameSyntax">
+    <Field Name="Identifier" Type="SyntaxToken">
+      <PropertyComment>
+        <summary>SyntaxToken representing the identifier of the simple name.</summary>
+      </PropertyComment>
+      <Kind Name="IdentifierToken" />
+    </Field>
+    <TypeComment>
+      <summary>Provides the base class from which the classes that represent simple name syntax nodes are derived. This is an abstract class.</summary>
+    </TypeComment>
+  </AbstractNode>
+  <Node Name="XamlBodySyntax" Base="XamlSyntaxNode">
+    <Kind Name="XamlBody"/>
+    <Field Name="Elements" Type="SyntaxList&lt;XamlSyntaxNode&gt;"/>
+    <Field Name="EndOfFileToken" Type="SyntaxToken">
+      <Kind Name="EndOfFileToken"/>
+    </Field>
+  </Node>
+  <Node Name="IdentifierNameSyntax" Base="SimpleNameSyntax">
+    <Kind Name="IdentifierName"/>
+    <Field Name="Identifier" Type="SyntaxToken" Override="true">
+      <Kind Name="IdentifierToken"/>
+      <PropertyComment>
+        <summary>SyntaxToken representing the keyword for the kind of the identifier name.</summary>
+      </PropertyComment>
+    </Field>
+    <TypeComment>
+      <summary>Class which represents the syntax node for identifier name.</summary>
+    </TypeComment>
+    <FactoryComment>
+      <summary>Creates an IdentifierNameSyntax node.</summary>
+    </FactoryComment>
+  </Node>
+  <Node Name="QualifiedNameSyntax" Base="NameSyntax">
+    <Kind Name="QualifiedName"/>
+    <Field Name="Left" Type="NameSyntax">
+      <PropertyComment>
+        <summary>NameSyntax node representing the name on the left side of the dot token of the qualified name.</summary>
+      </PropertyComment>
+    </Field>
+    <Field Name="DotToken" Type="SyntaxToken">
+      <Kind Name="DotToken"/>
+      <PropertyComment>
+        <summary>SyntaxToken representing the dot.</summary>
+      </PropertyComment>
+    </Field>
+    <Field Name="Right" Type="SimpleNameSyntax">
+      <PropertyComment>
+        <summary>SimpleNameSyntax node representing the name on the right side of the dot token of the qualified name.</summary>
+      </PropertyComment>
+    </Field>
+    <TypeComment>
+      <summary>Class which represents the syntax node for qualified name.</summary>
+    </TypeComment>
+    <FactoryComment>
+      <summary>Creates a QualifiedNameSyntax node.</summary>
+    </FactoryComment>
+  </Node>
+  <Node Name="XamlElementSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlElement"/>
+    <Field Name="StartTag" Type="XamlElementStartTagSyntax"/>
+    <Field Name="Content" Type="SyntaxList&lt;XamlSyntaxNode&gt;"/>
+    <Field Name="EndTag" Type="XamlElementEndTagSyntax"/>
+  </Node>
+  <Node Name="XamlElementStartTagSyntax" Base="XamlSyntaxNode">
+    <Kind Name="XamlElementStartTag"/>
+    <Field Name="LessThanToken" Type="SyntaxToken">
+      <Kind Name="LessThanToken"/>
+    </Field>
+    <Field Name="Name" Type="XamlNameSyntax"/>
+    <Field Name="Attributes" Type="SyntaxList&lt;XamlAttributeSyntax&gt;"/>
+    <Field Name="GreaterThanToken" Type="SyntaxToken">
+      <Kind Name="GreaterThanToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlElementEndTagSyntax" Base="XamlSyntaxNode">
+    <Kind Name="XamlElementEndTag"/>
+    <Field Name="LessThanSlashToken" Type="SyntaxToken">
+      <Kind Name="LessThanSlashToken"/>
+    </Field>
+    <Field Name="Name" Type="XamlNameSyntax"/>
+    <Field Name="GreaterThanToken" Type="SyntaxToken">
+      <Kind Name="GreaterThanToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlEmptyElementSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlEmptyElement"/>
+    <Field Name="LessThanToken" Type="SyntaxToken">
+      <Kind Name="LessThanToken"/>
+    </Field>
+    <Field Name="Name" Type="XamlNameSyntax"/>
+    <Field Name="Attributes" Type="SyntaxList&lt;XamlAttributeSyntax&gt;"/>
+    <Field Name="SlashGreaterThanToken" Type="SyntaxToken">
+      <Kind Name="SlashGreaterThanToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlNameSyntax" Base="XamlSyntaxNode">
+    <Kind Name="XamlName"/>
+    <Field Name="Prefix" Type="XamlPrefixSyntax" Optional="true"/>
+    <Field Name="LocalName" Type="SyntaxToken">
+      <Kind Name="IdentifierToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlPrefixSyntax" Base="XamlSyntaxNode">
+    <Kind Name="XamlPrefix"/>
+    <Field Name="Prefix" Type="SyntaxToken">
+      <Kind Name="IdentifierToken"/>
+    </Field>
+    <Field Name="ColonToken" Type="SyntaxToken">
+      <Kind Name="ColonToken"/>
+    </Field>
+  </Node>
+  <AbstractNode Name="XamlAttributeSyntax" Base="XamlSyntaxNode">
+    <Field Name="Name" Type="XamlNameSyntax"/>
+    <Field Name="EqualsToken" Type="SyntaxToken">
+      <Kind Name="EqualsToken"/>
+    </Field>
+    <Field Name="StartQuoteToken" Type="SyntaxToken">
+      <Kind Name="SingleQuoteToken"/>
+      <Kind Name="DoubleQuoteToken"/>
+    </Field>
+    <Field Name="EndQuoteToken" Type="SyntaxToken">
+      <Kind Name="SingleQuoteToken"/>
+      <Kind Name="DoubleQuoteToken"/>
+    </Field>
+  </AbstractNode>
+  <Node Name="XamlTextAttributeSyntax" Base="XamlAttributeSyntax">
+    <Kind Name="XamlTextAttribute"/>
+    <Field Name="Name" Type="XamlNameSyntax" Override="true"/>
+    <Field Name="EqualsToken" Type="SyntaxToken" Override="true">
+      <Kind Name="EqualsToken"/>
+    </Field>
+    <Field Name="StartQuoteToken" Type="SyntaxToken" Override="true">
+      <Kind Name="SingleQuoteToken"/>
+      <Kind Name="DoubleQuoteToken"/>
+    </Field>
+    <Field Name="TextTokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+    <!-- XamlTextLiteralToken or XamlEntityLiteralToken-->
+    <Field Name="EndQuoteToken" Type="SyntaxToken" Override="true">
+      <Kind Name="SingleQuoteToken"/>
+      <Kind Name="DoubleQuoteToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlNameAttributeSyntax" Base="XamlAttributeSyntax">
+    <Kind Name="XamlNameAttribute"/>
+    <Field Name="Name" Type="XamlNameSyntax" Override="true"/>
+    <Field Name="EqualsToken" Type="SyntaxToken" Override="true">
+      <Kind Name="EqualsToken"/>
+    </Field>
+    <Field Name="StartQuoteToken" Type="SyntaxToken" Override="true">
+      <Kind Name="SingleQuoteToken"/>
+      <Kind Name="DoubleQuoteToken"/>
+    </Field>
+    <Field Name="Identifier" Type="IdentifierNameSyntax" />
+    <Field Name="EndQuoteToken" Type="SyntaxToken" Override="true">
+      <Kind Name="SingleQuoteToken"/>
+      <Kind Name="DoubleQuoteToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlTextSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlText"/>
+    <Field Name="TextTokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+    <!-- XamlTextLiteralToken or XamlEntityLiteralToken-->
+  </Node>
+  <Node Name="XamlCDataSectionSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlCDataSection"/>
+    <Field Name="StartCDataToken" Type="SyntaxToken">
+      <Kind Name="XamlCDataStartToken"/>
+    </Field>
+    <Field Name="TextTokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+    <!-- XamlTextLiteralToken only -->
+    <Field Name="EndCDataToken" Type="SyntaxToken">
+      <Kind Name="XamlCDataEndToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlProcessingInstructionSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlProcessingInstruction"/>
+    <Field Name="StartProcessingInstructionToken" Type="SyntaxToken">
+      <Kind Name="XamlProcessingInstructionStartToken"/>
+    </Field>
+    <Field Name="Name" Type="XamlNameSyntax" />
+    <Field Name="TextTokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+    <!-- XamlTextLiteralToken only -->
+    <Field Name="EndProcessingInstructionToken" Type="SyntaxToken">
+      <Kind Name="XamlProcessingInstructionEndToken"/>
+    </Field>
+  </Node>
+  <Node Name="XamlCommentSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlComment"/>
+    <Field Name="LessThanExclamationMinusMinusToken" Type="SyntaxToken">
+      <Kind Name="XamlCommentStartToken"/>
+    </Field>
+    <Field Name="TextTokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+    <!-- XamlTextLiteralToken only -->
+    <Field Name="MinusMinusGreaterThanToken" Type="SyntaxToken">
+      <Kind Name="XamlCommentEndToken"/>
+    </Field>
+  </Node>
+  <!--
+  <Node Name="XamlProcessingInstructionSyntax" Base="XamlNodeSyntax">
+    <Kind Name="XamlProcessingInstruction"/>
+    <Field Name="LessThanQuestionToken" Type="SyntaxToken"/>
+    <Field Name="TextTokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+    <Field Name="QuestionGreaterThanToken" Type="SyntaxToken"/>
+  </Node>
+  -->
+  <Node Name="SkippedTokensTriviaSyntax" Base="StructuredTriviaSyntax">
+    <Kind Name="SkippedTokensTrivia"/>
+    <Field Name="Tokens" Type="SyntaxList&lt;SyntaxToken&gt;"/>
+  </Node>
+</Tree>

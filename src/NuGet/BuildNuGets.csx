@@ -99,6 +99,7 @@ string[] RedistPackageNames = {
     "Microsoft.CodeAnalysis.VisualBasic.Scripting",
     "Microsoft.CodeAnalysis.VisualBasic.Workspaces",
     "Microsoft.CodeAnalysis.Workspaces.Common",
+    "Microsoft.CodeAnalysis.Xaml",
     "Microsoft.VisualStudio.LanguageServices",
     "Microsoft.VisualStudio.LanguageServices.Next",
 };
