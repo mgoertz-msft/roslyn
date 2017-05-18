@@ -21,5 +21,15 @@ namespace Microsoft.CodeAnalysis
         /// The common name used for the F# language.
         /// </summary>
         public const string FSharp = "F#";
+
+        /// <summary>
+        /// The common name used for the XML language.
+        /// </summary>
+        public const string Xml = "Xml";
+
+        /// <summary>
+        /// The common name used for the XAML language.
+        /// </summary>
+        public const string Xaml = "Xaml";
     }
 }

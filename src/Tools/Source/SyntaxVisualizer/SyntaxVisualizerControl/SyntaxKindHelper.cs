@@ -3,6 +3,7 @@
 using Microsoft.CodeAnalysis;
 using CSharpExtensions = Microsoft.CodeAnalysis.CSharp.CSharpExtensions;
 using VisualBasicExtensions = Microsoft.CodeAnalysis.VisualBasic.VisualBasicExtensions;
+using XamlExtensions = Microsoft.CodeAnalysis.Xaml.XamlExtensions;
 
 namespace Roslyn.SyntaxVisualizer.Control
 {
@@ -31,13 +32,17 @@ namespace Roslyn.SyntaxVisualizer.Control
         {
             var kind = string.Empty;
 
-            if (node.Language == LanguageNames.CSharp)
+            switch (node.Language)
             {
-                kind = CSharpExtensions.Kind(node).ToString();
-            }
-            else
-            {
-                kind = VisualBasicExtensions.Kind(node).ToString();
+                case LanguageNames.CSharp:
+                    kind = CSharpExtensions.Kind(node).ToString();
+                    break;
+                case LanguageNames.VisualBasic:
+                    kind = VisualBasicExtensions.Kind(node).ToString();
+                    break;
+                case LanguageNames.Xaml:
+                    kind = XamlExtensions.Kind(node).ToString();
+                    break;
             }
 
             return kind;
@@ -47,13 +52,17 @@ namespace Roslyn.SyntaxVisualizer.Control
         {
             var kind = string.Empty;
 
-            if (token.Language == LanguageNames.CSharp)
+            switch (token.Language)
             {
-                kind = CSharpExtensions.Kind(token).ToString();
-            }
-            else
-            {
-                kind = VisualBasicExtensions.Kind(token).ToString();
+                case LanguageNames.CSharp:
+                    kind = CSharpExtensions.Kind(token).ToString();
+                    break;
+                case LanguageNames.VisualBasic:
+                    kind = VisualBasicExtensions.Kind(token).ToString();
+                    break;
+                case LanguageNames.Xaml:
+                    kind = XamlExtensions.Kind(token).ToString();
+                    break;
             }
 
             return kind;
@@ -63,13 +72,17 @@ namespace Roslyn.SyntaxVisualizer.Control
         {
             var kind = string.Empty;
 
-            if (trivia.Language == LanguageNames.CSharp)
+            switch (trivia.Language)
             {
-                kind = CSharpExtensions.Kind(trivia).ToString();
-            }
-            else
-            {
-                kind = VisualBasicExtensions.Kind(trivia).ToString();
+                case LanguageNames.CSharp:
+                    kind = CSharpExtensions.Kind(trivia).ToString();
+                    break;
+                case LanguageNames.VisualBasic:
+                    kind = VisualBasicExtensions.Kind(trivia).ToString();
+                    break;
+                case LanguageNames.Xaml:
+                    kind = XamlExtensions.Kind(trivia).ToString();
+                    break;
             }
 
             return kind;

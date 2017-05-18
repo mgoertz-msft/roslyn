@@ -7,7 +7,7 @@ using Microsoft.CodeAnalysis.Diagnostics;
 using Microsoft.CodeAnalysis.Editor.Xaml;
 using Microsoft.VisualStudio.LanguageServices.Xaml;
 
-namespace Microsoft.CodeAnalysis.Xaml.Diagnostics.Analyzers
+namespace Microsoft.CodeAnalysis.Xml.Diagnostics.Analyzers
 {
     [DiagnosticAnalyzer(StringConstants.XamlLanguageName)]
     internal class XamlDocumentDiagnosticAnalyzer : DocumentDiagnosticAnalyzer
