@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata minClientVersion="3.3">
-    <id>Microsoft.CodeAnalysis.Xaml</id>
+    <id>Microsoft.CodeAnalysis.Xml</id>
     <description>
-      .NET Compiler Platform ("Roslyn") support for XAML, Microsoft.CodeAnalysis.Xaml.dll.
+      .NET Compiler Platform ("Roslyn") support for XML, Microsoft.CodeAnalysis.Xml.dll.
     </description>
     <dependencies>
       <dependency id="Microsoft.CodeAnalysis.Common" version="[$version$]" />
@@ -20,8 +20,8 @@
     <serviceable>true</serviceable>
   </metadata>
   <files>
-    <file src="Dlls\XamlCodeAnalysis\Microsoft.CodeAnalysis.Xaml.dll" target="lib\netstandard1.3" />
-    <file src="Dlls\XamlCodeAnalysis\Microsoft.CodeAnalysis.Xaml.xml" target="lib\netstandard1.3" />
+    <file src="Dlls\XmlCodeAnalysis\Microsoft.CodeAnalysis.Xml.dll" target="lib\netstandard1.3" />
+    <file src="Dlls\XmlCodeAnalysis\Microsoft.CodeAnalysis.Xml.xml" target="lib\netstandard1.3" />
     <file src="$thirdPartyNoticesPath$" target="" />
   </files>
 </package>

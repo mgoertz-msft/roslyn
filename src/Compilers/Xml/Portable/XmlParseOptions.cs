@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Diagnostics;
 using System.Linq;
+using Microsoft.CodeAnalysis.PooledObjects;
 using Roslyn.Utilities;
 
 namespace Microsoft.CodeAnalysis.Xml
@@ -28,30 +29,21 @@ namespace Microsoft.CodeAnalysis.Xml
                   kind, 
                   ImmutableDictionary<string, string>.Empty)
         {
-            if (!kind.IsValid())
-            {
-                throw new ArgumentOutOfRangeException(nameof(kind));
-            }
         }
 
         internal XmlParseOptions(
             DocumentationMode documentationMode,
             SourceCodeKind kind,
-            ImmutableDictionary<string, string> features)
+            IReadOnlyDictionary<string, string> features)
             : base(kind, documentationMode)
         {
-            if (features == null)
-            {
-                throw new ArgumentNullException(nameof(features));
-            }
-
-            _features = features;
+            _features = features?.ToImmutableDictionary() ?? ImmutableDictionary<string, string>.Empty;
         }
 
         private XmlParseOptions(XmlParseOptions other) : this(
             documentationMode: other.DocumentationMode,
             kind: other.Kind,
-            features: other.Features.ToImmutableDictionary())
+            features: other.Features)
         {
         }
 
@@ -79,11 +71,6 @@ namespace Microsoft.CodeAnalysis.Xml
                 return this;
             }
 
-            if (!documentationMode.IsValid())
-            {
-                throw new ArgumentOutOfRangeException(nameof(documentationMode));
-            }
-
             return new XmlParseOptions(this) { DocumentationMode = documentationMode };
         }
 
@@ -107,12 +94,11 @@ namespace Microsoft.CodeAnalysis.Xml
         /// </summary>
         public new XmlParseOptions WithFeatures(IEnumerable<KeyValuePair<string, string>> features)
         {
-            if (features == null)
-            {
-                throw new ArgumentNullException(nameof(features));
-            }
+            ImmutableDictionary<string, string> dictionary =
+                features?.ToImmutableDictionary(StringComparer.OrdinalIgnoreCase)
+                ?? ImmutableDictionary<string, string>.Empty;
 
-            return new XmlParseOptions(this) { _features = features.ToImmutableDictionary(StringComparer.OrdinalIgnoreCase) };
+            return new XmlParseOptions(this) { _features = dictionary };
         }
 
         public override IReadOnlyDictionary<string, string> Features
@@ -121,6 +107,11 @@ namespace Microsoft.CodeAnalysis.Xml
             {
                 return _features;
             }
+        }
+
+        internal override void ValidateOptions(ArrayBuilder<Diagnostic> builder)
+        {
+            ValidateOptions(builder, MessageProvider.Instance);
         }
 
         public override IEnumerable<string> PreprocessorSymbolNames => Enumerable.Empty<string>();

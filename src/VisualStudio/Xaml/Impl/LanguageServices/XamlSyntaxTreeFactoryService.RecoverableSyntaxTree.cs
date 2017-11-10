@@ -1,16 +1,15 @@
 ﻿// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
 
-using System;
-using System.Diagnostics;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.CodeAnalysis.Xml.Syntax;
 using Microsoft.CodeAnalysis.Host;
 using Microsoft.CodeAnalysis.Text;
+using Microsoft.CodeAnalysis.Xml;
+using Microsoft.CodeAnalysis.Xml.Syntax;
 using Roslyn.Utilities;
 
-namespace Microsoft.CodeAnalysis.Xml
+namespace Microsoft.CodeAnalysis.Xaml
 {
     internal partial class XamlSyntaxTreeFactoryServiceFactory
     {

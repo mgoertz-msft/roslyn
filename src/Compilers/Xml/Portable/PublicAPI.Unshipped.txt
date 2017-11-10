@@ -1,0 +1,632 @@
+Microsoft.CodeAnalysis.Xml.SymbolDisplay
+Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken identifier) -> Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax.WithIdentifier(Microsoft.CodeAnalysis.SyntaxToken identifier) -> Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.NameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.DotToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.Left.get -> Microsoft.CodeAnalysis.Xml.Syntax.NameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.Right.get -> Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.Update(Microsoft.CodeAnalysis.Xml.Syntax.NameSyntax left, Microsoft.CodeAnalysis.SyntaxToken dotToken, Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.WithDotToken(Microsoft.CodeAnalysis.SyntaxToken dotToken) -> Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.WithLeft(Microsoft.CodeAnalysis.Xml.Syntax.NameSyntax left) -> Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.WithRight(Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax.AddTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax.Tokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax.Update(Microsoft.CodeAnalysis.SyntaxTokenList tokens) -> Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax.WithTokens(Microsoft.CodeAnalysis.SyntaxTokenList tokens) -> Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.StructuredTriviaSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.TypeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.AddElements(params Microsoft.CodeAnalysis.Xml.XmlSyntaxNode[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.Elements.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode>
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.EndOfFileToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.Update(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> elements, Microsoft.CodeAnalysis.SyntaxToken endOfFileToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.WithElements(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> elements) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.WithEndOfFileToken(Microsoft.CodeAnalysis.SyntaxToken endOfFileToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.EndCDataToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.StartCDataToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken startCDataToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endCDataToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.WithEndCDataToken(Microsoft.CodeAnalysis.SyntaxToken endCDataToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.WithStartCDataToken(Microsoft.CodeAnalysis.SyntaxToken startCDataToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.LessThanExclamationMinusMinusToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.MinusMinusGreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanExclamationMinusMinusToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken minusMinusGreaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.WithLessThanExclamationMinusMinusToken(Microsoft.CodeAnalysis.SyntaxToken lessThanExclamationMinusMinusToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.WithMinusMinusGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken minusMinusGreaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.GreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.LessThanSlashToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanSlashToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.WithGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.WithLessThanSlashToken(Microsoft.CodeAnalysis.SyntaxToken lessThanSlashToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.WithName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.AddAttributes(params Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.Attributes.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax>
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.GreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.LessThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.WithAttributes(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.WithGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.WithLessThanToken(Microsoft.CodeAnalysis.SyntaxToken lessThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.WithName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.AddContent(params Microsoft.CodeAnalysis.Xml.XmlSyntaxNode[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.AddStartTagAttributes(params Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.Content.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode>
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.EndTag.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.StartTag.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.Update(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax startTag, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> content, Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.WithContent(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> content) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.WithEndTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.WithStartTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax startTag) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.AddAttributes(params Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.Attributes.get -> Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax>
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.LessThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.SlashGreaterThanToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken slashGreaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.WithAttributes(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.WithLessThanToken(Microsoft.CodeAnalysis.SyntaxToken lessThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.WithName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.WithSlashGreaterThanToken(Microsoft.CodeAnalysis.SyntaxToken slashGreaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.Identifier.get -> Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.Update(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.WithEndQuoteToken(Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.WithEqualsToken(Microsoft.CodeAnalysis.SyntaxToken equalsToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.WithIdentifier(Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax identifier) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.WithName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.WithStartQuoteToken(Microsoft.CodeAnalysis.SyntaxToken startQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.LocalName.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.Prefix.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.Update(Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax prefix, Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.WithLocalName(Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.WithPrefix(Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax prefix) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlNodeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.ColonToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.Prefix.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken prefix, Microsoft.CodeAnalysis.SyntaxToken colonToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.WithColonToken(Microsoft.CodeAnalysis.SyntaxToken colonToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.WithPrefix(Microsoft.CodeAnalysis.SyntaxToken prefix) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.EndProcessingInstructionToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.StartProcessingInstructionToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.Update(Microsoft.CodeAnalysis.SyntaxToken startProcessingInstructionToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.WithEndProcessingInstructionToken(Microsoft.CodeAnalysis.SyntaxToken endProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.WithName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.WithStartProcessingInstructionToken(Microsoft.CodeAnalysis.SyntaxToken startProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.Update(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.WithEndQuoteToken(Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.WithEqualsToken(Microsoft.CodeAnalysis.SyntaxToken equalsToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.WithName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.WithStartQuoteToken(Microsoft.CodeAnalysis.SyntaxToken startQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax.AddTextTokens(params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax.TextTokens.get -> Microsoft.CodeAnalysis.SyntaxTokenList
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax.Update(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax.WithTextTokens(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+Microsoft.CodeAnalysis.Xml.SyntaxFactory
+Microsoft.CodeAnalysis.Xml.SyntaxFacts
+Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.AliasQualifiedName = 9620 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.AmpersandToken = 9198 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.ArrayRankSpecifier = 9623 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.ArrayType = 9622 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Assign = 9001 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.AsteriskToken = 9022 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.BackslashToken = 9210 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.BadToken = 9507 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.BarToken = 9209 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CaretToken = 9197 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CharacterData = 9005 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CharacterLiteralToken = 9510 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CloseBraceToken = 9019 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CloseBracketToken = 9020 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CloseParenToken = 9021 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Colon = 9002 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.ColonToken = 9002 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Comma = 9003 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.CommaToken = 9003 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Comment = 9004 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.DisabledTextTrivia = 9546 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.DocumentationCommentExteriorTrivia = 9543 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.DollarToken = 9195 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Dot = 9006 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.DotToken = 9006 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.DoubleQuoteToken = 9213 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfDocumentationCommentToken = 9495 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfFile = 9499 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfFileToken = 9499 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfLine = 9007 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfLineTrivia = 9539 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfProcessingInstruction = 9008 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfRegion = 9028 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfSimpleTag = 9010 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndOfTag = 9009 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EndRegionDirectiveTrivia = 9553 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.EqualsToken = 9001 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.ExclamationToken = 9194 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.FalseKeyword = 9324 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.GenericName = 9618 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.GreaterThanToken = 9009 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.HashToken = 9220 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Identifier = 9011 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.IdentifierName = 9616 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.IdentifierToken = 9011 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.IllegalCharacter = 9012 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.InternalKeyword = 9345 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.LeftBrace = 9013 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.LeftBracket = 9014 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.LeftParenthesis = 9015 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.LessThanSlashToken = 9023 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.LessThanToken = 9024 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.List = 1 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.LiteralContentString = 9016 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.MinusToken = 9202 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.MultiLineCommentTrivia = 9542 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.MultiLineDocumentationCommentTrivia = 9545 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.NamespaceKeyword = 9372 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.None = 0 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.NullKeyword = 9322 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.NullableType = 9625 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.NumericLiteralToken = 9509 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.OmittedTypeArgument = 9626 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.OpenBraceToken = 9013 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.OpenBracketToken = 9014 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.OpenParenToken = 9015 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.PercentToken = 9196 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Plus = 9017 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.PlusToken = 9017 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.PointerType = 9624 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.PredefinedType = 9621 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.PrivateKeyword = 9344 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.ProcessingInstruction = 9018 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.ProtectedKeyword = 9346 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.PublicKeyword = 9343 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.QualifiedName = 9617 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.QuestionToken = 9219 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.RegionDirectiveTrivia = 9552 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.RightBrace = 9019 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.RightBracket = 9020 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.RightParenthesis = 9021 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SemicolonToken = 9212 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SingleLineCommentTrivia = 9541 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SingleLineDocumentationCommentTrivia = 9544 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SingleQuoteToken = 9214 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SkippedTokensTrivia = 9563 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SlashGreaterThanToken = 9010 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.SlashToken = 9221 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Star = 9022 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.StartOfClosingTag = 9023 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.StartOfRegion = 9027 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.StartOfTag = 9024 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.StringLiteral = 9025 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.StringLiteralToken = 9511 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.TildeToken = 9193 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.TrueKeyword = 9323 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.TypeArgumentList = 9619 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.UnderscoreToken = 9491 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.Whitespace = 9026 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.WhitespaceTrivia = 9540 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlBody = 9840 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlCDataEndToken = 9237 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlCDataSection = 9584 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlCDataStartToken = 9236 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlComment = 9585 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlCommentEndToken = 9235 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlCommentStartToken = 9234 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlCrefAttribute = 9579 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlElement = 9574 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlElementEndTag = 9576 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlElementStartTag = 9575 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlEmptyElement = 9577 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlEntityLiteralToken = 9512 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlFirst = 9000 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlLast = 9999 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlName = 9581 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlNameAttribute = 9580 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlPrefix = 9582 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlProcessingInstruction = 9586 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlProcessingInstructionEndToken = 9239 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlProcessingInstructionStartToken = 9238 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlText = 9583 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlTextAttribute = 9578 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlTextLiteralNewLineToken = 9514 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.SyntaxKind.XmlTextLiteralToken = 9513 -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.XmlDiagnosticFormatter
+Microsoft.CodeAnalysis.Xml.XmlExtensions
+Microsoft.CodeAnalysis.Xml.XmlParseOptions
+Microsoft.CodeAnalysis.Xml.XmlParseOptions.Equals(Microsoft.CodeAnalysis.Xml.XmlParseOptions other) -> bool
+Microsoft.CodeAnalysis.Xml.XmlParseOptions.WithDocumentationMode(Microsoft.CodeAnalysis.DocumentationMode documentationMode) -> Microsoft.CodeAnalysis.Xml.XmlParseOptions
+Microsoft.CodeAnalysis.Xml.XmlParseOptions.WithFeatures(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, string>> features) -> Microsoft.CodeAnalysis.Xml.XmlParseOptions
+Microsoft.CodeAnalysis.Xml.XmlParseOptions.WithKind(Microsoft.CodeAnalysis.SourceCodeKind kind) -> Microsoft.CodeAnalysis.Xml.XmlParseOptions
+Microsoft.CodeAnalysis.Xml.XmlParseOptions.XmlParseOptions(Microsoft.CodeAnalysis.DocumentationMode documentationMode = Microsoft.CodeAnalysis.DocumentationMode.Parse, Microsoft.CodeAnalysis.SourceCodeKind kind = Microsoft.CodeAnalysis.SourceCodeKind.Regular) -> void
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.FindToken(int position, bool findInsideTrivia = false) -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.FindTrivia(int position, System.Func<Microsoft.CodeAnalysis.SyntaxTrivia, bool> stepInto) -> Microsoft.CodeAnalysis.SyntaxTrivia
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.FindTrivia(int position, bool findInsideTrivia = false) -> Microsoft.CodeAnalysis.SyntaxTrivia
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.GetDiagnostics() -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.GetFirstToken(bool includeZeroWidth = false, bool includeSkipped = false, bool includeDirectives = false, bool includeDocumentationComments = false) -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.GetLastToken(bool includeZeroWidth = false, bool includeSkipped = false, bool includeDirectives = false, bool includeDocumentationComments = false) -> Microsoft.CodeAnalysis.SyntaxToken
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.GetLeadingTrivia() -> Microsoft.CodeAnalysis.SyntaxTriviaList
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.GetLocation() -> Microsoft.CodeAnalysis.Location
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.GetTrailingTrivia() -> Microsoft.CodeAnalysis.SyntaxTriviaList
+Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.Kind() -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter
+Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.XmlSyntaxRewriter(bool visitIntoStructuredTrivia = false) -> void
+Microsoft.CodeAnalysis.Xml.XmlSyntaxTree
+Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.CloneNodeAsRoot<T>(T node) -> T
+Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.XmlSyntaxTree() -> void
+Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor
+Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.XmlSyntaxVisitor() -> void
+Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>
+Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.XmlSyntaxVisitor() -> void
+Microsoft.CodeAnalysis.XmlExtensions
+abstract Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax.Identifier.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax.EndQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax.EqualsToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+abstract Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax.StartQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+abstract Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+abstract Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+abstract Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetRoot(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.Xml.XmlSyntaxNode
+abstract Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.Options.get -> Microsoft.CodeAnalysis.Xml.XmlParseOptions
+abstract Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.TryGetRoot(out Microsoft.CodeAnalysis.Xml.XmlSyntaxNode root) -> bool
+override Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax.Identifier.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.StructuredTriviaSyntax.ParentTrivia.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.EndQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.EqualsToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax.StartQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.EndQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.EqualsToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.Name.get -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax.StartQuoteToken.get -> Microsoft.CodeAnalysis.SyntaxToken
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax.Accept(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor visitor) -> void
+override Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax.Accept<TResult>(Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult> visitor) -> TResult
+override Microsoft.CodeAnalysis.Xml.XmlParseOptions.CommonWithKind(Microsoft.CodeAnalysis.SourceCodeKind kind) -> Microsoft.CodeAnalysis.ParseOptions
+override Microsoft.CodeAnalysis.Xml.XmlParseOptions.Equals(object obj) -> bool
+override Microsoft.CodeAnalysis.Xml.XmlParseOptions.Features.get -> System.Collections.Generic.IReadOnlyDictionary<string, string>
+override Microsoft.CodeAnalysis.Xml.XmlParseOptions.GetHashCode() -> int
+override Microsoft.CodeAnalysis.Xml.XmlParseOptions.Language.get -> string
+override Microsoft.CodeAnalysis.Xml.XmlParseOptions.PreprocessorSymbolNames.get -> System.Collections.Generic.IEnumerable<string>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.Language.get -> string
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.Visit(Microsoft.CodeAnalysis.SyntaxNode node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitIdentifierName(Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitQualifiedName(Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitSkippedTokensTrivia(Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlBody(Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlCDataSection(Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlComment(Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlElementEndTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlElementStartTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlEmptyElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlNameAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlPrefix(Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlProcessingInstruction(Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlText(Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitXmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax node) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetChangedSpans(Microsoft.CodeAnalysis.SyntaxTree oldTree) -> System.Collections.Generic.IList<Microsoft.CodeAnalysis.Text.TextSpan>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetChanges(Microsoft.CodeAnalysis.SyntaxTree oldTree) -> System.Collections.Generic.IList<Microsoft.CodeAnalysis.Text.TextChange>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxNode node) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxToken token) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetDiagnostics(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetDiagnostics(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Diagnostic>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetLineSpan(Microsoft.CodeAnalysis.Text.TextSpan span, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.FileLinePositionSpan
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetLineVisibility(int position, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.LineVisibility
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetLocation(Microsoft.CodeAnalysis.Text.TextSpan span) -> Microsoft.CodeAnalysis.Location
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetMappedLineSpan(Microsoft.CodeAnalysis.Text.TextSpan span, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.FileLinePositionSpan
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetRootAsyncCore(System.Threading.CancellationToken cancellationToken) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.SyntaxNode>
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetRootCore(System.Threading.CancellationToken cancellationToken) -> Microsoft.CodeAnalysis.SyntaxNode
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.HasHiddenRegions() -> bool
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.IsEquivalentTo(Microsoft.CodeAnalysis.SyntaxTree tree, bool topLevel = false) -> bool
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.OptionsCore.get -> Microsoft.CodeAnalysis.ParseOptions
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.TryGetRootCore(out Microsoft.CodeAnalysis.SyntaxNode root) -> bool
+override Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.WithChangedText(Microsoft.CodeAnalysis.Text.SourceText newText) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.FormatLiteral(char c, bool quote) -> string
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.FormatLiteral(string value, bool quote) -> string
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.FormatPrimitive(object obj, bool quoteStrings, bool useHexadecimalNumbers) -> string
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.ToDisplayParts(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> System.Collections.Immutable.ImmutableArray<Microsoft.CodeAnalysis.SymbolDisplayPart>
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.ToDisplayString(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> string
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.ToMinimalDisplayParts(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SemanticModel semanticModel, int position, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> System.Collections.Immutable.ImmutableArray<Microsoft.CodeAnalysis.SymbolDisplayPart>
+static Microsoft.CodeAnalysis.Xml.SymbolDisplay.ToMinimalDisplayString(Microsoft.CodeAnalysis.ISymbol symbol, Microsoft.CodeAnalysis.SemanticModel semanticModel, int position, Microsoft.CodeAnalysis.SymbolDisplayFormat format = null) -> string
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxNode oldNode, Microsoft.CodeAnalysis.SyntaxNode newNode, System.Func<Microsoft.CodeAnalysis.Xml.SyntaxKind, bool> ignoreChildNode = null) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxNode oldNode, Microsoft.CodeAnalysis.SyntaxNode newNode, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxToken oldToken, Microsoft.CodeAnalysis.SyntaxToken newToken) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxTokenList oldList, Microsoft.CodeAnalysis.SyntaxTokenList newList) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent(Microsoft.CodeAnalysis.SyntaxTree oldTree, Microsoft.CodeAnalysis.SyntaxTree newTree, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> newList, System.Func<Microsoft.CodeAnalysis.Xml.SyntaxKind, bool> ignoreChildNode = null) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> newList, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SyntaxList<TNode> newList, System.Func<Microsoft.CodeAnalysis.Xml.SyntaxKind, bool> ignoreChildNode = null) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.AreEquivalent<TNode>(Microsoft.CodeAnalysis.SyntaxList<TNode> oldList, Microsoft.CodeAnalysis.SyntaxList<TNode> newList, bool topLevel) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.BadToken(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.CarriageReturn.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.CarriageReturnLineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Comment(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.DocumentationCommentExterior(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticCarriageReturn.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticCarriageReturnLineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticEndOfLine(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticLineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticMarker.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticSpace.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticTab.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ElasticWhitespace(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.EndOfLine(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.EndOfLine(string text, bool elastic) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Identifier(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xml.SyntaxKind contextualKind, string text, string valueText, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Identifier(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Identifier(string text) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.IdentifierName(Microsoft.CodeAnalysis.SyntaxToken identifier) -> Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.IdentifierName(string name) -> Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.LineFeed.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.List<TNode>() -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.List<TNode>(System.Collections.Generic.IEnumerable<TNode> nodes) -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, char value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, decimal value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, double value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, float value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, int value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, long value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, uint value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, ulong value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(char value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(decimal value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(double value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(float value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(int value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(long value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, char value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, decimal value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, double value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, float value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, int value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, long value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, uint value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string text, ulong value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(uint value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Literal(ulong value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.MissingToken(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xml.SyntaxKind kind, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.MissingToken(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.NodeOrTokenList() -> Microsoft.CodeAnalysis.SyntaxNodeOrTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.NodeOrTokenList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxNodeOrToken> nodesAndTokens) -> Microsoft.CodeAnalysis.SyntaxNodeOrTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.NodeOrTokenList(params Microsoft.CodeAnalysis.SyntaxNodeOrToken[] nodesAndTokens) -> Microsoft.CodeAnalysis.SyntaxNodeOrTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ParseLeadingTrivia(string text, int offset = 0) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ParseSyntaxTree(Microsoft.CodeAnalysis.Text.SourceText text, Microsoft.CodeAnalysis.ParseOptions options = null, string path = "", System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ParseSyntaxTree(string text, Microsoft.CodeAnalysis.ParseOptions options = null, string path = "", System.Text.Encoding encoding = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ParseToken(string text, int offset = 0) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ParseTokens(string text, int offset = 0, int initialTokenPosition = 0, Microsoft.CodeAnalysis.Xml.XmlParseOptions options = null) -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxToken>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.ParseTrailingTrivia(string text, int offset = 0) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.QualifiedName(Microsoft.CodeAnalysis.Xml.Syntax.NameSyntax left, Microsoft.CodeAnalysis.SyntaxToken dotToken, Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.QualifiedName(Microsoft.CodeAnalysis.Xml.Syntax.NameSyntax left, Microsoft.CodeAnalysis.Xml.Syntax.SimpleNameSyntax right) -> Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SeparatedList<TNode>() -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SeparatedList<TNode>(Microsoft.CodeAnalysis.SyntaxNodeOrTokenList nodesAndTokens) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SeparatedList<TNode>(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxNodeOrToken> nodesAndTokens) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SeparatedList<TNode>(System.Collections.Generic.IEnumerable<TNode> nodes) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SeparatedList<TNode>(System.Collections.Generic.IEnumerable<TNode> nodes, System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxToken> separators) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SingletonList<TNode>(TNode node) -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SingletonSeparatedList<TNode>(TNode node) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SkippedTokensTrivia() -> Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SkippedTokensTrivia(Microsoft.CodeAnalysis.SyntaxTokenList tokens) -> Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Space.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SyntaxTree(Microsoft.CodeAnalysis.SyntaxNode root, Microsoft.CodeAnalysis.ParseOptions options = null, string path = "", System.Text.Encoding encoding = null) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.SyntaxTrivia(Microsoft.CodeAnalysis.Xml.SyntaxKind kind, string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Tab.get -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Token(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xml.SyntaxKind kind, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Token(Microsoft.CodeAnalysis.SyntaxTriviaList leading, Microsoft.CodeAnalysis.Xml.SyntaxKind kind, string text, string valueText, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Token(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TokenList() -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TokenList(Microsoft.CodeAnalysis.SyntaxToken token) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TokenList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxToken> tokens) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TokenList(params Microsoft.CodeAnalysis.SyntaxToken[] tokens) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Trivia(Microsoft.CodeAnalysis.Xml.Syntax.StructuredTriviaSyntax node) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TriviaList() -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TriviaList(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TriviaList(System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxTrivia> trivias) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.TriviaList(params Microsoft.CodeAnalysis.SyntaxTrivia[] trivias) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.VerbatimIdentifier(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string valueText, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Whitespace(string text) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.Whitespace(string text, bool elastic) -> Microsoft.CodeAnalysis.SyntaxTrivia
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlBody(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> elements = default(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode>)) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlBody(Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> elements, Microsoft.CodeAnalysis.SyntaxToken endOfFileToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlCDataSection(Microsoft.CodeAnalysis.SyntaxToken startCDataToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endCDataToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlCDataSection(Microsoft.CodeAnalysis.SyntaxTokenList textTokens = default(Microsoft.CodeAnalysis.SyntaxTokenList)) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlComment(Microsoft.CodeAnalysis.SyntaxToken lessThanExclamationMinusMinusToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken minusMinusGreaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlComment(Microsoft.CodeAnalysis.SyntaxTokenList textTokens = default(Microsoft.CodeAnalysis.SyntaxTokenList)) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax startTag, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> content, Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax startTag, Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax endTag) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElementEndTag(Microsoft.CodeAnalysis.SyntaxToken lessThanSlashToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElementEndTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElementStartTag(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken greaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElementStartTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlElementStartTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlEmptyElement(Microsoft.CodeAnalysis.SyntaxToken lessThanToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes, Microsoft.CodeAnalysis.SyntaxToken slashGreaterThanToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlEmptyElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlEmptyElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.Syntax.XmlAttributeSyntax> attributes) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlMultiLineElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> content) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlMultiLineElement(string localName, Microsoft.CodeAnalysis.SyntaxList<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode> content) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlName(Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlName(Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax prefix, Microsoft.CodeAnalysis.SyntaxToken localName) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlName(string localName) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlNameAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlNameAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlNameAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, string identifier, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlNewLine(string text) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlPrefix(Microsoft.CodeAnalysis.SyntaxToken prefix) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlPrefix(Microsoft.CodeAnalysis.SyntaxToken prefix, Microsoft.CodeAnalysis.SyntaxToken colonToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlPrefix(string prefix) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlProcessingInstruction(Microsoft.CodeAnalysis.SyntaxToken startProcessingInstructionToken, Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endProcessingInstructionToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlProcessingInstruction(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlProcessingInstruction(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlText() -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlText(Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlText(params Microsoft.CodeAnalysis.SyntaxToken[] textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlText(string value) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken equalsToken, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.SyntaxToken startQuoteToken, Microsoft.CodeAnalysis.SyntaxTokenList textTokens, Microsoft.CodeAnalysis.SyntaxToken endQuoteToken) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax name, Microsoft.CodeAnalysis.Xml.SyntaxKind quoteKind, Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(string name, Microsoft.CodeAnalysis.Xml.SyntaxKind quoteKind, Microsoft.CodeAnalysis.SyntaxTokenList textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(string name, params Microsoft.CodeAnalysis.SyntaxToken[] textTokens) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextAttribute(string name, string value) -> Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextLiteral(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextLiteral(string text, string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextLiteral(string value) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextNewLine(Microsoft.CodeAnalysis.SyntaxTriviaList leading, string text, string value, Microsoft.CodeAnalysis.SyntaxTriviaList trailing) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextNewLine(string text) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFactory.XmlTextNewLine(string text, bool continueXmlDocumentationComment) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.EqualityComparer.get -> System.Collections.Generic.IEqualityComparer<Microsoft.CodeAnalysis.Xml.SyntaxKind>
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.GetKeywordKind(string text) -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.GetKeywordKinds() -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Xml.SyntaxKind>
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.GetReservedKeywordKinds() -> System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.Xml.SyntaxKind>
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.GetText(Microsoft.CodeAnalysis.Accessibility accessibility) -> string
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.GetText(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> string
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsAccessibilityModifier(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsAnyToken(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsDocumentationCommentTrivia(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsIdentifierPartCharacter(char ch) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsIdentifierStartCharacter(char ch) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsKeywordKind(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsName(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsNewLine(char ch) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsReservedKeyword(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsTrivia(Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsValidIdentifier(string name) -> bool
+static Microsoft.CodeAnalysis.Xml.SyntaxFacts.IsWhitespace(char ch) -> bool
+static Microsoft.CodeAnalysis.Xml.XmlDiagnosticFormatter.Instance.get -> Microsoft.CodeAnalysis.Xml.XmlDiagnosticFormatter
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.Insert(this Microsoft.CodeAnalysis.SyntaxTokenList list, int index, params Microsoft.CodeAnalysis.SyntaxToken[] items) -> Microsoft.CodeAnalysis.SyntaxTokenList
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.IsKeyword(this Microsoft.CodeAnalysis.SyntaxToken token) -> bool
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.IsReservedKeyword(this Microsoft.CodeAnalysis.SyntaxToken token) -> bool
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxNode node) -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken) -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxToken token) -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.Kind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> Microsoft.CodeAnalysis.Xml.SyntaxKind
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.ReplaceTrivia(this Microsoft.CodeAnalysis.SyntaxToken token, Microsoft.CodeAnalysis.SyntaxTrivia oldTrivia, Microsoft.CodeAnalysis.SyntaxTrivia newTrivia) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.ReplaceTrivia(this Microsoft.CodeAnalysis.SyntaxToken token, System.Collections.Generic.IEnumerable<Microsoft.CodeAnalysis.SyntaxTrivia> trivia, System.Func<Microsoft.CodeAnalysis.SyntaxTrivia, Microsoft.CodeAnalysis.SyntaxTrivia, Microsoft.CodeAnalysis.SyntaxTrivia> computeReplacementTrivia) -> Microsoft.CodeAnalysis.SyntaxToken
+static Microsoft.CodeAnalysis.Xml.XmlExtensions.VarianceKindFromToken(this Microsoft.CodeAnalysis.SyntaxToken node) -> Microsoft.CodeAnalysis.VarianceKind
+static Microsoft.CodeAnalysis.Xml.XmlParseOptions.Default.get -> Microsoft.CodeAnalysis.Xml.XmlParseOptions
+static Microsoft.CodeAnalysis.Xml.XmlSyntaxNode.DeserializeFrom(System.IO.Stream stream, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxNode
+static Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.Create(Microsoft.CodeAnalysis.Xml.XmlSyntaxNode root, Microsoft.CodeAnalysis.Xml.XmlParseOptions options = null, string path = "", System.Text.Encoding encoding = null) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.ParseText(Microsoft.CodeAnalysis.Text.SourceText text, Microsoft.CodeAnalysis.Xml.XmlParseOptions options = null, string path = "", System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.ParseText(string text, Microsoft.CodeAnalysis.Xml.XmlParseOptions options = null, string path = "", System.Text.Encoding encoding = null, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> Microsoft.CodeAnalysis.SyntaxTree
+static Microsoft.CodeAnalysis.XmlExtensions.Any(this Microsoft.CodeAnalysis.SyntaxTokenList list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.Any(this Microsoft.CodeAnalysis.SyntaxTriviaList list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.Any<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.Any<TNode>(this Microsoft.CodeAnalysis.SyntaxList<TNode> list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.IndexOf(this Microsoft.CodeAnalysis.SyntaxTokenList list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XmlExtensions.IndexOf(this Microsoft.CodeAnalysis.SyntaxTriviaList list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XmlExtensions.IndexOf<TNode>(this Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XmlExtensions.IndexOf<TNode>(this Microsoft.CodeAnalysis.SyntaxList<TNode> list, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> int
+static Microsoft.CodeAnalysis.XmlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxNode node, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxNodeOrToken nodeOrToken, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxToken token, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+static Microsoft.CodeAnalysis.XmlExtensions.IsKind(this Microsoft.CodeAnalysis.SyntaxTrivia trivia, Microsoft.CodeAnalysis.Xml.SyntaxKind kind) -> bool
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitIntoStructuredTrivia.get -> bool
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitList(Microsoft.CodeAnalysis.SyntaxTokenList list) -> Microsoft.CodeAnalysis.SyntaxTokenList
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitList(Microsoft.CodeAnalysis.SyntaxTriviaList list) -> Microsoft.CodeAnalysis.SyntaxTriviaList
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitList<TNode>(Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode> list) -> Microsoft.CodeAnalysis.SeparatedSyntaxList<TNode>
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitList<TNode>(Microsoft.CodeAnalysis.SyntaxList<TNode> list) -> Microsoft.CodeAnalysis.SyntaxList<TNode>
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitListElement(Microsoft.CodeAnalysis.SyntaxTrivia element) -> Microsoft.CodeAnalysis.SyntaxTrivia
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitListElement<TNode>(TNode node) -> TNode
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitListSeparator(Microsoft.CodeAnalysis.SyntaxToken separator) -> Microsoft.CodeAnalysis.SyntaxToken
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitToken(Microsoft.CodeAnalysis.SyntaxToken token) -> Microsoft.CodeAnalysis.SyntaxToken
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxRewriter.VisitTrivia(Microsoft.CodeAnalysis.SyntaxTrivia trivia) -> Microsoft.CodeAnalysis.SyntaxTrivia
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxTree.GetRootAsync(System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken)) -> System.Threading.Tasks.Task<Microsoft.CodeAnalysis.Xml.XmlSyntaxNode>
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.DefaultVisit(Microsoft.CodeAnalysis.SyntaxNode node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.Visit(Microsoft.CodeAnalysis.SyntaxNode node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitIdentifierName(Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitQualifiedName(Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitSkippedTokensTrivia(Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlBody(Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlCDataSection(Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlComment(Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlElementEndTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlElementStartTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlEmptyElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlNameAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlPrefix(Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlProcessingInstruction(Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlText(Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor.VisitXmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax node) -> void
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.DefaultVisit(Microsoft.CodeAnalysis.SyntaxNode node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.Visit(Microsoft.CodeAnalysis.SyntaxNode node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitIdentifierName(Microsoft.CodeAnalysis.Xml.Syntax.IdentifierNameSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitQualifiedName(Microsoft.CodeAnalysis.Xml.Syntax.QualifiedNameSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitSkippedTokensTrivia(Microsoft.CodeAnalysis.Xml.Syntax.SkippedTokensTriviaSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlBody(Microsoft.CodeAnalysis.Xml.Syntax.XmlBodySyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlCDataSection(Microsoft.CodeAnalysis.Xml.Syntax.XmlCDataSectionSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlComment(Microsoft.CodeAnalysis.Xml.Syntax.XmlCommentSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlElementEndTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementEndTagSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlElementStartTag(Microsoft.CodeAnalysis.Xml.Syntax.XmlElementStartTagSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlEmptyElement(Microsoft.CodeAnalysis.Xml.Syntax.XmlEmptyElementSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlName(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlNameAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlNameAttributeSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlPrefix(Microsoft.CodeAnalysis.Xml.Syntax.XmlPrefixSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlProcessingInstruction(Microsoft.CodeAnalysis.Xml.Syntax.XmlProcessingInstructionSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlText(Microsoft.CodeAnalysis.Xml.Syntax.XmlTextSyntax node) -> TResult
+virtual Microsoft.CodeAnalysis.Xml.XmlSyntaxVisitor<TResult>.VisitXmlTextAttribute(Microsoft.CodeAnalysis.Xml.Syntax.XmlTextAttributeSyntax node) -> TResult

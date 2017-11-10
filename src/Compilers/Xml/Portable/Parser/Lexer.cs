@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+﻿// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
 
 using System;
 using System.Diagnostics;
@@ -1444,7 +1444,7 @@ namespace Microsoft.CodeAnalysis.Xml.Syntax.InternalSyntax
 
             Debug.Assert(s.Length <= 2, "A Unicode character has a max of 2 chars.");
 
-            UnicodeCategory ccat = 0;
+            //UnicodeCategory ccat = 0;
             if ('a' <= s[0] && s[0] <= 'z' || 'A' <= s[0] && s[0] <= 'Z' || s[0] == '_')
                 return true;
             if (s[0] < 128)

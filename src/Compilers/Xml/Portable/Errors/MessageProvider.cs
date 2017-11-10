@@ -243,6 +243,12 @@ namespace Microsoft.CodeAnalysis.Xml
 
         public override int ERR_BadAssemblyName => throw new NotImplementedException();
 
+        public override int ERR_BadSourceCodeKind => throw new NotImplementedException();
+
+        public override int ERR_BadDocumentationMode => throw new NotImplementedException();
+
+        public override int ERR_InvalidDebugInfo => throw new NotImplementedException();
+
         public override void ReportDuplicateMetadataReferenceStrong(DiagnosticBag diagnostics, Location location, MetadataReference reference, AssemblyIdentity identity, MetadataReference equivalentReference, AssemblyIdentity equivalentIdentity)
         {
             throw new NotImplementedException();

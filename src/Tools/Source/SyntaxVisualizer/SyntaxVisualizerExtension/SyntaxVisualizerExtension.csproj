@@ -40,6 +40,9 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="WindowsBase" />
     <Reference Include="System.Xaml" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\CodeAnalysis\Microsoft.CodeAnalysis.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\CSharpCodeAnalysis\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\BasicCodeAnalysis\Microsoft.CodeAnalysis.VisualBasic.dll" />
     <PackageReference Include="EnvDTE">
       <Version>$(EnvDTEVersion)</Version>
     </PackageReference>
@@ -49,9 +52,9 @@
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers">
       <Version>$(MicrosoftCodeAnalysisAnalyzersVersion)</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.Common">
+    <!--<PackageReference Include="Microsoft.CodeAnalysis.Common">
       <Version>$(MicrosoftCodeAnalysisCommonVersion)</Version>
-    </PackageReference>
+    </PackageReference>-->
     <PackageReference Include="Microsoft.CodeAnalysis.EditorFeatures.Text">
       <Version>$(MicrosoftCodeAnalysisEditorFeaturesTextVersion)</Version>
     </PackageReference>

@@ -115,7 +115,7 @@ namespace Microsoft.CodeAnalysis
         /// Tests whether a list contains a token of a particular kind.
         /// </summary>
         /// <param name="list"></param>
-        /// <param name="kind">The <see cref="CSharp.SyntaxKind"/> to test for.</param>
+        /// <param name="kind">The <see cref="Xml.SyntaxKind"/> to test for.</param>
         /// <returns>Returns true if the list contains a token which matches <paramref name="kind"/></returns>
         public static bool Any(this SyntaxTokenList list, SyntaxKind kind)
         {

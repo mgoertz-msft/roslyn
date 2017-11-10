@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+﻿// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
 
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -28,7 +28,7 @@ namespace Microsoft.CodeAnalysis.Xml.Syntax.InternalSyntax
         private readonly ContextAwareSyntax _syntaxFactory; // Has context, the fields of which are resettable.
 
         private TokenInfo _token;
-        private List<SourceLocation> _skippedCharacters;
+        //private List<SourceLocation> _skippedCharacters;
         private int _recursionDepth;
 
         private const int MaxDepth = 4000;
@@ -72,10 +72,10 @@ namespace Microsoft.CodeAnalysis.Xml.Syntax.InternalSyntax
             return AddError(node, position, 0, ErrorCode.MaxDepthReached);
         }
 
-        public IList<SourceLocation> SkippedCharacters
-        {
-            get { return _skippedCharacters; }
-        }
+        //public IList<SourceLocation> SkippedCharacters
+        //{
+        //    get { return _skippedCharacters; }
+        //}
 
         private struct XmlBodyBuilder
         {

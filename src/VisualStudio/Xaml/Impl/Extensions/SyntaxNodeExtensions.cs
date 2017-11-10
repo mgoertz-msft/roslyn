@@ -7,12 +7,18 @@ using System.Linq;
 using Microsoft.CodeAnalysis.Shared.Extensions;
 using Microsoft.CodeAnalysis.Shared.Utilities;
 using Microsoft.CodeAnalysis.Text;
+using Microsoft.CodeAnalysis.Xml.Syntax;
 using Roslyn.Utilities;
 
 namespace Microsoft.CodeAnalysis.Xml.Extensions
 {
     internal static partial class SyntaxNodeExtensions
     {
+        public static bool IsRightSideOfQualifiedName(this SyntaxNode expression)
+        {
+            return expression.IsParentKind(SyntaxKind.QualifiedName) && ((QualifiedNameSyntax)expression.Parent).Right == expression;
+        }
+
         public static bool IsParentKind(this SyntaxNode node, SyntaxKind kind)
         {
             return node != null && CodeAnalysis.XmlExtensions.IsKind(node.Parent, kind);

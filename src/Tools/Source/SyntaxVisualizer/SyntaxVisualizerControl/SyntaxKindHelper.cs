@@ -3,7 +3,7 @@
 using Microsoft.CodeAnalysis;
 using CSharpExtensions = Microsoft.CodeAnalysis.CSharp.CSharpExtensions;
 using VisualBasicExtensions = Microsoft.CodeAnalysis.VisualBasic.VisualBasicExtensions;
-using XamlExtensions = Microsoft.CodeAnalysis.Xaml.XamlExtensions;
+using XmlExtensions = Microsoft.CodeAnalysis.Xml.XmlExtensions;
 
 namespace Roslyn.SyntaxVisualizer.Control
 {
@@ -40,8 +40,8 @@ namespace Roslyn.SyntaxVisualizer.Control
                 case LanguageNames.VisualBasic:
                     kind = VisualBasicExtensions.Kind(node).ToString();
                     break;
-                case LanguageNames.Xaml:
-                    kind = XamlExtensions.Kind(node).ToString();
+                case "Xml":
+                    kind = XmlExtensions.Kind(node).ToString();
                     break;
             }
 
@@ -60,8 +60,8 @@ namespace Roslyn.SyntaxVisualizer.Control
                 case LanguageNames.VisualBasic:
                     kind = VisualBasicExtensions.Kind(token).ToString();
                     break;
-                case LanguageNames.Xaml:
-                    kind = XamlExtensions.Kind(token).ToString();
+                case "Xml":
+                    kind = XmlExtensions.Kind(token).ToString();
                     break;
             }
 
@@ -80,8 +80,8 @@ namespace Roslyn.SyntaxVisualizer.Control
                 case LanguageNames.VisualBasic:
                     kind = VisualBasicExtensions.Kind(trivia).ToString();
                     break;
-                case LanguageNames.Xaml:
-                    kind = XamlExtensions.Kind(trivia).ToString();
+                case "Xml":
+                    kind = XmlExtensions.Kind(trivia).ToString();
                     break;
             }
 

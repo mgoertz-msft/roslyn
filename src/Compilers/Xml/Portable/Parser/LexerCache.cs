@@ -7,6 +7,7 @@ using Microsoft.CodeAnalysis.Xml.Syntax;
 using Microsoft.CodeAnalysis.Text;
 using Roslyn.Utilities;
 using System.Text;
+using Microsoft.CodeAnalysis.PooledObjects;
 
 namespace Microsoft.CodeAnalysis.Xml.Syntax.InternalSyntax
 {

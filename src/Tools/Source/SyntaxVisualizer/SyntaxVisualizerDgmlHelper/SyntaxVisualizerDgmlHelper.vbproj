@@ -20,10 +20,13 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\CodeAnalysis\Microsoft.CodeAnalysis.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\CSharpCodeAnalysis\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\BasicCodeAnalysis\Microsoft.CodeAnalysis.VisualBasic.dll" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers">
       <Version>$(MicrosoftCodeAnalysisAnalyzersVersion)</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.Common">
+    <!--<PackageReference Include="Microsoft.CodeAnalysis.Common">
       <Version>$(MicrosoftCodeAnalysisCommonVersion)</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic">
@@ -31,7 +34,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp">
       <Version>$(MicrosoftCodeAnalysisCSharpVersion)</Version>
-    </PackageReference>
+    </PackageReference>-->
     <PackageReference Include="System.Collections.Immutable">
       <Version>$(SystemCollectionsImmutableFixedVersion)</Version>
     </PackageReference>

@@ -3,10 +3,8 @@
 using System;
 using System.Diagnostics;
 using System.Globalization;
-using System.Text;
-using PooledStringBuilder = Microsoft.CodeAnalysis.Collections.PooledStringBuilder;
-using ExceptionUtilities = Roslyn.Utilities.ExceptionUtilities;
 using System.Reflection;
+using Microsoft.CodeAnalysis.PooledObjects;
 
 namespace Microsoft.CodeAnalysis.Xml
 {

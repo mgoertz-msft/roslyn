@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+﻿// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
 
 using System;
 using System.Collections.Generic;
@@ -81,7 +81,7 @@ namespace Microsoft.CodeAnalysis.Xml.Extensions
         public static bool IsEntirelyWithinCharLiteral(
             this SyntaxTree syntaxTree, int position, CancellationToken cancellationToken)
         {
-            var root = syntaxTree.GetRoot(cancellationToken) as XamlBodySyntax;
+            var root = syntaxTree.GetRoot(cancellationToken) as XmlBodySyntax;
             var token = root.FindToken(position, findInsideTrivia: true);
 
             // If we ask right at the end of the file, we'll get back nothing.

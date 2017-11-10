@@ -1,4 +1,4 @@
-// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
+﻿// Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.
 
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
@@ -10,7 +10,7 @@ namespace Microsoft.CodeAnalysis.Xml.Syntax.InternalSyntax
     [DebuggerDisplay("{DebuggerDisplayValue,nq}")]
     internal struct TokenSet
     {
-        private uint bits0;
+        private ulong bits0;
         public static TokenSet operator |(TokenSet ts, SyntaxKind t)
         {
             TokenSet result = new TokenSet();

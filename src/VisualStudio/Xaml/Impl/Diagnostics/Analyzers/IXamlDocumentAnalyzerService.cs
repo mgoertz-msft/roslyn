@@ -5,7 +5,7 @@ using System.Collections.Immutable;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.CodeAnalysis.Xml.Diagnostics.Analyzers
+namespace Microsoft.CodeAnalysis.Xaml.Diagnostics.Analyzers
 {
     internal interface IXamlDocumentAnalyzerService
     {

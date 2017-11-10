@@ -4,13 +4,14 @@ using System.Composition;
 using System.IO;
 using System.Text;
 using System.Threading;
-using Microsoft.CodeAnalysis.Xml.Syntax;
 using Microsoft.CodeAnalysis.Host;
 using Microsoft.CodeAnalysis.Host.Mef;
 using Microsoft.CodeAnalysis.Text;
+using Microsoft.CodeAnalysis.Xml;
+using Microsoft.CodeAnalysis.Xml.Syntax;
 using Roslyn.Utilities;
 
-namespace Microsoft.CodeAnalysis.Xml
+namespace Microsoft.CodeAnalysis.Xaml
 {
     [ExportLanguageServiceFactory(typeof(ISyntaxTreeFactoryService), LanguageNames.Xaml), Shared]
     internal partial class XamlSyntaxTreeFactoryServiceFactory : ILanguageServiceFactory

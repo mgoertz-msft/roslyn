@@ -17,7 +17,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'" />
   <ItemGroup>
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\CodeAnalysis\Microsoft.CodeAnalysis.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\CSharpCodeAnalysis\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\BasicCodeAnalysis\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Reference Include="..\..\..\..\..\Binaries\Debug\Dlls\XmlCodeAnalysis\Microsoft.CodeAnalysis.Xml.dll" />
     <Reference Include="System" />
+    <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="WindowsBase" />
@@ -26,12 +31,10 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers">
       <Version>$(MicrosoftCodeAnalysisAnalyzersVersion)</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.CodeAnalysis.Common">
+    <!--<PackageReference Include="Microsoft.CodeAnalysis.Common">
       <Version>$(MicrosoftCodeAnalysisCommonVersion)</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp">
@@ -39,7 +42,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic">
       <Version>$(MicrosoftCodeAnalysisVisualBasicVersion)</Version>
-    </PackageReference>
+    </PackageReference>-->
     <PackageReference Include="System.Collections.Immutable">
       <Version>$(SystemCollectionsImmutableFixedVersion)</Version>
     </PackageReference>

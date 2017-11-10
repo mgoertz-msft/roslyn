@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Immutable;
 using System.Diagnostics;
+using Microsoft.CodeAnalysis.PooledObjects;
 
 namespace Microsoft.CodeAnalysis.Xml
 {
@@ -18,7 +19,7 @@ namespace Microsoft.CodeAnalysis.Xml
         /// Displays a symbol in the XML style, based on a <see cref="SymbolDisplayFormat"/>.
         /// </summary>
         /// <param name="symbol">The symbol to be displayed.</param>
-        /// <param name="format">The formatting options to apply.  If null is passed, <see cref="SymbolDisplayFormat.XmlErrorMessageFormat"/> will be used.</param>
+        /// <param name="format">The formatting options to apply.  If null is passed, <see cref="SymbolDisplayFormat.CSharpErrorMessageFormat"/> will be used.</param>
         /// <returns>A formatted string that can be displayed to the user.</returns>
         /// <remarks>
         /// The return value is not expected to be syntactically valid XML.

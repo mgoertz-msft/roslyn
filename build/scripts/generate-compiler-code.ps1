@@ -95,7 +95,9 @@ function Build-Tools() {
         'csharpErrorFactsGenerator;CSharpErrorFactsGenerator;CSharpErrorFactsGenerator\CSharpErrorFactsGenerator.csproj',
         'csharpSyntaxGenerator;CSharpSyntaxGenerator;CSharpSyntaxGenerator\CSharpSyntaxGenerator.csproj',
         'basicErrorFactsGenerator;VBErrorFactsGenerator;VisualBasicErrorFactsGenerator\VisualBasicErrorFactsGenerator.vbproj',
-        'basicSyntaxGenerator;VBSyntaxGenerator;VisualBasicSyntaxGenerator\VisualBasicSyntaxGenerator.vbproj')
+        'basicSyntaxGenerator;VBSyntaxGenerator;VisualBasicSyntaxGenerator\VisualBasicSyntaxGenerator.vbproj',
+        'xmlErrorFactsGenerator;XmlErrorFactsGenerator;XmlErrorFactsGenerator\XmlErrorFactsGenerator.csproj',
+        'xmlSyntaxGenerator;XmlSyntaxGenerator;XmlSyntaxGenerator\XmlSyntaxGenerator.csproj')
 
     Push-Location (Join-Path $repoDir 'src\Tools\Source\CompilerGeneratorTools\Source')
     try {
@@ -133,9 +135,12 @@ try {
     $csharpTestDir = Join-Path $repoDir "src\Compilers\CSharp\Test\Syntax"
     $basicDir = Join-Path $repoDir "src\Compilers\VisualBasic\Portable"
     $basicTestDir = Join-Path $repoDir "src\Compilers\VisualBasic\Test\Syntax"
+    $xmlDir = Join-Path $repoDir "src\Compilers\Xml\Portable"
+    $xmlTestDir = Join-Path $repoDir "src\Compilers\Xml\Test\Syntax"
 
     Run-Language "CSharp" "cs" $csharpDir $csharpTestDir $csharpSyntaxGenerator $csharpErrorFactsGenerator
     Run-Language "VB" "vb" $basicDir $basicTestDir $basicSyntaxGenerator $basicErrorFactsGenerator
+    Run-Language "CSharp" "xml" $xmlDir $xmlTestDir $xmlSyntaxGenerator $xmlErrorFactsGenerator
     Run-GetText
 
     exit 0

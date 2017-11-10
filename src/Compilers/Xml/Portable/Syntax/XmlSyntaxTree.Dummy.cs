@@ -12,10 +12,11 @@ namespace Microsoft.CodeAnalysis.Xml
     {
         internal sealed class DummySyntaxTree : XmlSyntaxTree
         {
-            XmlSyntaxNode _node;
+            private readonly XmlSyntaxNode _node;
 
             public DummySyntaxTree()
             {
+                _node = null;
             }
 
             public override string ToString()

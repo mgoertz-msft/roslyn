@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.CodeAnalysis.Xml;
 using Microsoft.CodeAnalysis.Text;
 
-namespace Microsoft.CodeAnalysis.Xml
+namespace Microsoft.CodeAnalysis.Xaml
 {
     internal partial class XamlSyntaxTreeFactoryServiceFactory
     {
